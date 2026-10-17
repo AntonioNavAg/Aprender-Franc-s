@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f38">
+  <title>Atelier · Verbos franceses</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="verbos.js"></script>
+  <script defer src="conjugador.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html">atelier<span>FR</span></a><span class="level">TU FRANCÉS, PASO A PASO · A2–B1</span></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">UN POCO CADA DÍA</p><h1>De entenderlo<br>a <em>decirlo.</em></h1><p>300 verbos para ganar soltura en francés.<br>Estudia, practica y vuelve a los que te cuestan.</p></div><div class="intro-note"><span class="big">Bonjour !</span><p>Una palabra nueva.<br>Una conversación más cerca.</p><span class="tag">Sin cuenta · Sin conexión</span></div></section>
+    <nav aria-label="Secciones" class="tabs"><button data-view="practice" class="active" aria-pressed="true">01 · Practicar</button><button data-view="catalog" aria-pressed="false">02 · Catálogo y conjugaciones</button></nav>
+    <section id="practice">
+      <div class="section-head"><div><p class="eyebrow">TU SESIÓN</p><h2>¿Cómo practicamos hoy?</h2></div><p id="stats" aria-live="polite"></p></div>
+      <div class="controls"><label>Verbos de la sesión<select id="pool"><option value="core">100 esenciales</option><option value="all">Los 300 verbos</option><option value="favorites">Mis favoritos</option></select></label><label>Modo<select id="mode"><option value="cards">Flashcards</option><option value="quiz">Test de opciones</option><option value="write">Escribir en francés</option></select></label><label class="check"><input id="strict" type="checkbox" checked> Exigir acentos al escribir</label></div>
+      <div class="game" id="game">
+        <div class="game-top"><span id="question-number" class="eyebrow"></span><button id="star" class="small" aria-label="Añadir a favoritos">☆ Favorito</button></div>
+        <p class="prompt" id="prompt"></p><h3 id="question"></h3>
+        <div id="card-area"><button id="reveal" class="primary">Ver respuesta</button><div id="card-answer" hidden><p id="translation" lang="fr" class="answer"></p><div class="actions"><button id="remembered" class="primary">Lo sabía</button><button id="forgot" class="secondary">Repasar</button></div></div></div>
+        <div id="quiz-area" hidden><div id="options" class="options"></div></div>
+        <form id="write-area" hidden><label for="written">Infinitivo en francés</label><div class="write-line"><input id="written" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Escribe aquí…" aria-describedby="feedback"><button id="check-answer" class="primary" type="submit">Comprobar</button></div><div id="accents" class="accents" aria-label="Insertar letra con acento"></div></form>
+        <p id="feedback" role="status" aria-live="polite"></p>
+        <div class="game-bottom"><button id="listen" class="small" hidden>♫ Escuchar</button><button id="next" class="secondary" hidden>Siguiente →</button></div>
+      </div>
+      <p id="empty" class="empty" hidden>Añade favoritos con la estrella del catálogo para practicar con ellos.</p>
+      <p class="hint">Los juegos practican infinitivos del español al francés. La escritura acepta otros verbos del catálogo con la misma traducción.</p>
+    </section>
+    <section id="catalog" hidden>
+      <div class="section-head"><div><p class="eyebrow">TU BIBLIOTECA</p><h2>Encuentra la palabra.</h2></div><span id="count"></span></div>
+      <div class="catalog-controls"><label class="search-label">Buscar en español o francés<input id="search" type="search" placeholder="Por ejemplo: aprender o apprendre"></label><label class="check"><input id="only-favorites" type="checkbox"> Solo favoritos</label></div>
+      <div class="catalog-layout"><div id="verb-list" class="verb-list" aria-label="Lista de verbos"></div><aside id="detail" class="detail"><p class="eyebrow">CONJUGACIONES</p><h3 id="verb-title" lang="fr"></h3><p id="verb-meaning"></p><div class="actions"><button id="detail-star" class="small">☆ Favorito</button><button id="detail-listen" class="small">♫ Escuchar</button></div><label>Tiempo verbal<select id="tense"></select></label><label id="aux-label" hidden>Uso del verbo<select id="aux"><option value="être">Movimiento sin objeto · être</option><option value="avoir">Uso con objeto directo · avoir</option></select></label><p id="tense-help" class="tense-help"></p><table><caption class="sr-only">Conjugación del verbo seleccionado</caption><thead><tr><th>Persona</th><th>Forma francesa</th></tr></thead><tbody id="forms"></tbody></table><p id="verb-note" class="hint"></p></aside></div>
+    </section>
+    <footer><span>atelier · Un pequeño hábito, un gran idioma.</span><span id="storage-note">Favoritos y progreso guardados en este navegador.</span></footer>
+  </main>
+</body>
+</html>
