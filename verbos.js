@@ -1,4 +1,4 @@
-// 300 verbos: vocabulario español y formas francesas de Lefff. Véase FUENTES.md.
+// 350 verbos. Formas de Lefff; niveles editoriales orientativos. Véase FUENTES.md.
 window.VERBOS = [
   {
     "fr": "être",
@@ -59,7 +59,8 @@ window.VERBOS = [
         "été",
         "été"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "avoir",
@@ -120,7 +121,8 @@ window.VERBOS = [
         "eue",
         "eues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "aller",
@@ -181,7 +183,8 @@ window.VERBOS = [
         "allée",
         "allées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "faire",
@@ -242,7 +245,8 @@ window.VERBOS = [
         "faite",
         "faites"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "dire",
@@ -303,7 +307,8 @@ window.VERBOS = [
         "dite",
         "dites"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "pouvoir",
@@ -364,7 +369,8 @@ window.VERBOS = [
         "pu",
         "pu"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "vouloir",
@@ -425,7 +431,8 @@ window.VERBOS = [
         "voulue",
         "voulues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "savoir",
@@ -486,7 +493,8 @@ window.VERBOS = [
         "sue",
         "sues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "voir",
@@ -547,7 +555,8 @@ window.VERBOS = [
         "vue",
         "vues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "devoir",
@@ -608,7 +617,8 @@ window.VERBOS = [
         "due",
         "dues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "venir",
@@ -669,7 +679,8 @@ window.VERBOS = [
         "venue",
         "venues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "prendre",
@@ -730,7 +741,8 @@ window.VERBOS = [
         "prise",
         "prises"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "donner",
@@ -791,7 +803,8 @@ window.VERBOS = [
         "donnée",
         "données"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "parler",
@@ -852,7 +865,8 @@ window.VERBOS = [
         "parlée",
         "parlées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "aimer",
@@ -913,7 +927,8 @@ window.VERBOS = [
         "aimée",
         "aimées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "passer",
@@ -974,7 +989,8 @@ window.VERBOS = [
         "passée",
         "passées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "mettre",
@@ -1035,7 +1051,8 @@ window.VERBOS = [
         "mise",
         "mises"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "demander",
@@ -1096,7 +1113,8 @@ window.VERBOS = [
         "demandée",
         "demandées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "trouver",
@@ -1157,7 +1175,8 @@ window.VERBOS = [
         "trouvée",
         "trouvées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "comprendre",
@@ -1218,7 +1237,8 @@ window.VERBOS = [
         "comprise",
         "comprises"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "rester",
@@ -1279,7 +1299,8 @@ window.VERBOS = [
         "restée",
         "restées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "penser",
@@ -1340,7 +1361,8 @@ window.VERBOS = [
         "pensée",
         "pensées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "porter",
@@ -1401,7 +1423,8 @@ window.VERBOS = [
         "portée",
         "portées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "arriver",
@@ -1462,7 +1485,8 @@ window.VERBOS = [
         "arrivée",
         "arrivées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "croire",
@@ -1523,7 +1547,8 @@ window.VERBOS = [
         "crue",
         "crues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "laisser",
@@ -1584,7 +1609,8 @@ window.VERBOS = [
         "laissée",
         "laissées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "tenir",
@@ -1645,7 +1671,8 @@ window.VERBOS = [
         "tenue",
         "tenues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "regarder",
@@ -1706,7 +1733,8 @@ window.VERBOS = [
         "regardée",
         "regardées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "répondre",
@@ -1767,7 +1795,8 @@ window.VERBOS = [
         "répondue",
         "répondues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "connaître",
@@ -1828,7 +1857,8 @@ window.VERBOS = [
         "connue",
         "connues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "vivre",
@@ -1889,7 +1919,8 @@ window.VERBOS = [
         "vécue",
         "vécues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "partir",
@@ -1950,7 +1981,8 @@ window.VERBOS = [
         "partie",
         "parties"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "sortir",
@@ -2011,7 +2043,8 @@ window.VERBOS = [
         "sortie",
         "sorties"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "entrer",
@@ -2072,7 +2105,8 @@ window.VERBOS = [
         "entrée",
         "entrées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "rentrer",
@@ -2133,7 +2167,8 @@ window.VERBOS = [
         "rentrée",
         "rentrées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "retourner",
@@ -2194,7 +2229,8 @@ window.VERBOS = [
         "retournée",
         "retournées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "revenir",
@@ -2255,7 +2291,8 @@ window.VERBOS = [
         "revenue",
         "revenues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "tomber",
@@ -2316,7 +2353,8 @@ window.VERBOS = [
         "tombée",
         "tombées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "naître",
@@ -2377,7 +2415,8 @@ window.VERBOS = [
         "née",
         "nées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "mourir",
@@ -2438,7 +2477,8 @@ window.VERBOS = [
         "morte",
         "mortes"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "devenir",
@@ -2499,7 +2539,8 @@ window.VERBOS = [
         "devenue",
         "devenues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "monter",
@@ -2560,7 +2601,8 @@ window.VERBOS = [
         "montée",
         "montées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "descendre",
@@ -2621,7 +2663,8 @@ window.VERBOS = [
         "descendue",
         "descendues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "suivre",
@@ -2682,7 +2725,8 @@ window.VERBOS = [
         "suivie",
         "suivies"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "attendre",
@@ -2743,7 +2787,8 @@ window.VERBOS = [
         "attendue",
         "attendues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "entendre",
@@ -2804,7 +2849,8 @@ window.VERBOS = [
         "entendue",
         "entendues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "écouter",
@@ -2865,7 +2911,8 @@ window.VERBOS = [
         "écoutée",
         "écoutées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "chercher",
@@ -2926,7 +2973,8 @@ window.VERBOS = [
         "cherchée",
         "cherchées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "perdre",
@@ -2987,7 +3035,8 @@ window.VERBOS = [
         "perdue",
         "perdues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "gagner",
@@ -3048,7 +3097,8 @@ window.VERBOS = [
         "gagnée",
         "gagnées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "acheter",
@@ -3109,7 +3159,8 @@ window.VERBOS = [
         "achetée",
         "achetées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "vendre",
@@ -3170,7 +3221,8 @@ window.VERBOS = [
         "vendue",
         "vendues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "payer",
@@ -3231,7 +3283,8 @@ window.VERBOS = [
         "payée",
         "payées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "coûter",
@@ -3292,7 +3345,8 @@ window.VERBOS = [
         "coûtée",
         "coûtées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "choisir",
@@ -3353,7 +3407,8 @@ window.VERBOS = [
         "choisie",
         "choisies"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "préférer",
@@ -3414,7 +3469,8 @@ window.VERBOS = [
         "préférée",
         "préférées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "essayer",
@@ -3475,7 +3531,8 @@ window.VERBOS = [
         "essayée",
         "essayées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "utiliser",
@@ -3536,7 +3593,8 @@ window.VERBOS = [
         "utilisée",
         "utilisées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "ouvrir",
@@ -3597,7 +3655,8 @@ window.VERBOS = [
         "ouverte",
         "ouvertes"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "fermer",
@@ -3658,7 +3717,8 @@ window.VERBOS = [
         "fermée",
         "fermées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "commencer",
@@ -3719,7 +3779,8 @@ window.VERBOS = [
         "commencée",
         "commencées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "finir",
@@ -3780,7 +3841,8 @@ window.VERBOS = [
         "finie",
         "finies"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "continuer",
@@ -3841,7 +3903,8 @@ window.VERBOS = [
         "continuée",
         "continuées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "arrêter",
@@ -3902,7 +3965,8 @@ window.VERBOS = [
         "arrêtée",
         "arrêtées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "travailler",
@@ -3963,7 +4027,8 @@ window.VERBOS = [
         "travaillée",
         "travaillées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "étudier",
@@ -4024,7 +4089,8 @@ window.VERBOS = [
         "étudiée",
         "étudiées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "apprendre",
@@ -4085,7 +4151,8 @@ window.VERBOS = [
         "apprise",
         "apprises"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "enseigner",
@@ -4146,7 +4213,8 @@ window.VERBOS = [
         "enseignée",
         "enseignées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "lire",
@@ -4207,7 +4275,8 @@ window.VERBOS = [
         "lue",
         "lues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "écrire",
@@ -4268,7 +4337,8 @@ window.VERBOS = [
         "écrite",
         "écrites"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "compter",
@@ -4329,7 +4399,8 @@ window.VERBOS = [
         "comptée",
         "comptées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "raconter",
@@ -4390,7 +4461,8 @@ window.VERBOS = [
         "racontée",
         "racontées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "expliquer",
@@ -4451,7 +4523,8 @@ window.VERBOS = [
         "expliquée",
         "expliquées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "répéter",
@@ -4512,7 +4585,8 @@ window.VERBOS = [
         "répétée",
         "répétées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "retenir",
@@ -4573,7 +4647,8 @@ window.VERBOS = [
         "retenue",
         "retenues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "oublier",
@@ -4634,7 +4709,8 @@ window.VERBOS = [
         "oubliée",
         "oubliées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "réussir",
@@ -4695,7 +4771,8 @@ window.VERBOS = [
         "réussie",
         "réussies"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "échouer",
@@ -4756,7 +4833,8 @@ window.VERBOS = [
         "échouée",
         "échouées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "manger",
@@ -4817,7 +4895,8 @@ window.VERBOS = [
         "mangée",
         "mangées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "boire",
@@ -4878,7 +4957,8 @@ window.VERBOS = [
         "bue",
         "bues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "cuisiner",
@@ -4939,7 +5019,8 @@ window.VERBOS = [
         "cuisinée",
         "cuisinées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "préparer",
@@ -5000,7 +5081,8 @@ window.VERBOS = [
         "préparée",
         "préparées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "goûter",
@@ -5061,7 +5143,8 @@ window.VERBOS = [
         "goûtée",
         "goûtées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "couper",
@@ -5122,7 +5205,8 @@ window.VERBOS = [
         "coupée",
         "coupées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "ajouter",
@@ -5183,7 +5267,8 @@ window.VERBOS = [
         "ajoutée",
         "ajoutées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "mélanger",
@@ -5244,7 +5329,8 @@ window.VERBOS = [
         "mélangée",
         "mélangées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "chauffer",
@@ -5305,7 +5391,8 @@ window.VERBOS = [
         "chauffée",
         "chauffées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "cuire",
@@ -5366,7 +5453,8 @@ window.VERBOS = [
         "cuite",
         "cuites"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "servir",
@@ -5427,7 +5515,8 @@ window.VERBOS = [
         "servie",
         "servies"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "commander",
@@ -5488,7 +5577,8 @@ window.VERBOS = [
         "commandée",
         "commandées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "réserver",
@@ -5549,7 +5639,8 @@ window.VERBOS = [
         "réservée",
         "réservées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "inviter",
@@ -5610,7 +5701,8 @@ window.VERBOS = [
         "invitée",
         "invitées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "accueillir",
@@ -5671,7 +5763,8 @@ window.VERBOS = [
         "accueillie",
         "accueillies"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "offrir",
@@ -5732,7 +5825,8 @@ window.VERBOS = [
         "offerte",
         "offertes"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "recevoir",
@@ -5793,7 +5887,8 @@ window.VERBOS = [
         "reçue",
         "reçues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "remercier",
@@ -5854,7 +5949,8 @@ window.VERBOS = [
         "remerciée",
         "remerciées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "saluer",
@@ -5915,7 +6011,8 @@ window.VERBOS = [
         "saluée",
         "saluées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "présenter",
@@ -5976,7 +6073,8 @@ window.VERBOS = [
         "présentée",
         "présentées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "rencontrer",
@@ -6037,7 +6135,8 @@ window.VERBOS = [
         "rencontrée",
         "rencontrées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "visiter",
@@ -6098,7 +6197,8 @@ window.VERBOS = [
         "visitée",
         "visitées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "voyager",
@@ -6159,7 +6259,8 @@ window.VERBOS = [
         "voyagée",
         "voyagées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "marcher",
@@ -6220,7 +6321,8 @@ window.VERBOS = [
         "marchée",
         "marchées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "courir",
@@ -6281,7 +6383,8 @@ window.VERBOS = [
         "courue",
         "courues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "nager",
@@ -6342,7 +6445,8 @@ window.VERBOS = [
         "nagée",
         "nagées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "conduire",
@@ -6403,7 +6507,8 @@ window.VERBOS = [
         "conduite",
         "conduites"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "voler",
@@ -6464,7 +6569,8 @@ window.VERBOS = [
         "volée",
         "volées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "rouler",
@@ -6525,7 +6631,8 @@ window.VERBOS = [
         "roulée",
         "roulées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "traverser",
@@ -6586,7 +6693,8 @@ window.VERBOS = [
         "traversée",
         "traversées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "tourner",
@@ -6647,7 +6755,8 @@ window.VERBOS = [
         "tournée",
         "tournées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "avancer",
@@ -6708,7 +6817,8 @@ window.VERBOS = [
         "avancée",
         "avancées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "reculer",
@@ -6769,7 +6879,8 @@ window.VERBOS = [
         "reculée",
         "reculées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "atteindre",
@@ -6830,7 +6941,8 @@ window.VERBOS = [
         "atteinte",
         "atteintes"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "quitter",
@@ -6891,7 +7003,8 @@ window.VERBOS = [
         "quittée",
         "quittées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "emmener",
@@ -6952,7 +7065,8 @@ window.VERBOS = [
         "emmenée",
         "emmenées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "amener",
@@ -7013,7 +7127,8 @@ window.VERBOS = [
         "amenée",
         "amenées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "emporter",
@@ -7074,7 +7189,8 @@ window.VERBOS = [
         "emportée",
         "emportées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "apporter",
@@ -7135,7 +7251,8 @@ window.VERBOS = [
         "apportée",
         "apportées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "transporter",
@@ -7196,7 +7313,8 @@ window.VERBOS = [
         "transportée",
         "transportées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "accompagner",
@@ -7257,7 +7375,8 @@ window.VERBOS = [
         "accompagnée",
         "accompagnées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "guider",
@@ -7318,7 +7437,8 @@ window.VERBOS = [
         "guidée",
         "guidées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "indiquer",
@@ -7379,7 +7499,8 @@ window.VERBOS = [
         "indiquée",
         "indiquées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "montrer",
@@ -7440,7 +7561,8 @@ window.VERBOS = [
         "montrée",
         "montrées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "dormir",
@@ -7501,7 +7623,8 @@ window.VERBOS = [
         "dormie",
         "dormies"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "réveiller",
@@ -7562,7 +7685,8 @@ window.VERBOS = [
         "réveillée",
         "réveillées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "lever",
@@ -7623,7 +7747,8 @@ window.VERBOS = [
         "levée",
         "levées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "laver",
@@ -7684,7 +7809,8 @@ window.VERBOS = [
         "lavée",
         "lavées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "nettoyer",
@@ -7745,7 +7871,8 @@ window.VERBOS = [
         "nettoyée",
         "nettoyées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "sécher",
@@ -7806,7 +7933,8 @@ window.VERBOS = [
         "séchée",
         "séchées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "habiller",
@@ -7867,7 +7995,8 @@ window.VERBOS = [
         "habillée",
         "habillées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "changer",
@@ -7928,7 +8057,8 @@ window.VERBOS = [
         "changée",
         "changées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "ranger",
@@ -7989,7 +8119,8 @@ window.VERBOS = [
         "rangée",
         "rangées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "réparer",
@@ -8050,7 +8181,8 @@ window.VERBOS = [
         "réparée",
         "réparées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "construire",
@@ -8111,7 +8243,8 @@ window.VERBOS = [
         "construite",
         "construites"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "détruire",
@@ -8172,7 +8305,8 @@ window.VERBOS = [
         "détruite",
         "détruites"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "installer",
@@ -8233,7 +8367,8 @@ window.VERBOS = [
         "installée",
         "installées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "déménager",
@@ -8294,7 +8429,8 @@ window.VERBOS = [
         "déménagée",
         "déménagées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "habiter",
@@ -8355,7 +8491,8 @@ window.VERBOS = [
         "habitée",
         "habitées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "louer",
@@ -8416,7 +8553,8 @@ window.VERBOS = [
         "louée",
         "louées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "partager",
@@ -8477,7 +8615,8 @@ window.VERBOS = [
         "partagée",
         "partagées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "prêter",
@@ -8538,7 +8677,8 @@ window.VERBOS = [
         "prêtée",
         "prêtées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "emprunter",
@@ -8599,7 +8739,8 @@ window.VERBOS = [
         "empruntée",
         "empruntées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "rendre",
@@ -8660,7 +8801,8 @@ window.VERBOS = [
         "rendue",
         "rendues"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "garder",
@@ -8721,7 +8863,8 @@ window.VERBOS = [
         "gardée",
         "gardées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "protéger",
@@ -8782,7 +8925,8 @@ window.VERBOS = [
         "protégée",
         "protégées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "aider",
@@ -8843,7 +8987,8 @@ window.VERBOS = [
         "aidée",
         "aidées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "soutenir",
@@ -8904,7 +9049,8 @@ window.VERBOS = [
         "soutenue",
         "soutenues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "conseiller",
@@ -8965,7 +9111,8 @@ window.VERBOS = [
         "conseillée",
         "conseillées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "proposer",
@@ -9026,7 +9173,8 @@ window.VERBOS = [
         "proposée",
         "proposées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "accepter",
@@ -9087,7 +9235,8 @@ window.VERBOS = [
         "acceptée",
         "acceptées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "refuser",
@@ -9148,7 +9297,8 @@ window.VERBOS = [
         "refusée",
         "refusées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "permettre",
@@ -9209,7 +9359,8 @@ window.VERBOS = [
         "permise",
         "permises"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "interdire",
@@ -9270,7 +9421,8 @@ window.VERBOS = [
         "interdite",
         "interdites"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "obliger",
@@ -9331,7 +9483,8 @@ window.VERBOS = [
         "obligée",
         "obligées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "décider",
@@ -9392,7 +9545,8 @@ window.VERBOS = [
         "décidée",
         "décidées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "organiser",
@@ -9453,7 +9607,8 @@ window.VERBOS = [
         "organisée",
         "organisées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "prévoir",
@@ -9514,7 +9669,8 @@ window.VERBOS = [
         "prévue",
         "prévues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "espérer",
@@ -9575,7 +9731,8 @@ window.VERBOS = [
         "espérée",
         "espérées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "souhaiter",
@@ -9636,7 +9793,8 @@ window.VERBOS = [
         "souhaitée",
         "souhaitées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "rêver",
@@ -9697,7 +9855,8 @@ window.VERBOS = [
         "rêvée",
         "rêvées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "imaginer",
@@ -9758,7 +9917,8 @@ window.VERBOS = [
         "imaginée",
         "imaginées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "sentir",
@@ -9819,7 +9979,8 @@ window.VERBOS = [
         "sentie",
         "senties"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "ressentir",
@@ -9880,7 +10041,8 @@ window.VERBOS = [
         "ressentie",
         "ressenties"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "sembler",
@@ -9941,7 +10103,8 @@ window.VERBOS = [
         "semblée",
         "semblées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "paraître",
@@ -10002,7 +10165,8 @@ window.VERBOS = [
         "parue",
         "parues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "plaire",
@@ -10063,7 +10227,8 @@ window.VERBOS = [
         "plue",
         "plues"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "détester",
@@ -10124,7 +10289,8 @@ window.VERBOS = [
         "détestée",
         "détestées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "adorer",
@@ -10185,7 +10351,8 @@ window.VERBOS = [
         "adorée",
         "adorées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "respecter",
@@ -10246,7 +10413,8 @@ window.VERBOS = [
         "respectée",
         "respectées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "admirer",
@@ -10307,7 +10475,8 @@ window.VERBOS = [
         "admirée",
         "admirées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "apprécier",
@@ -10368,7 +10537,8 @@ window.VERBOS = [
         "appréciée",
         "appréciées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "manquer",
@@ -10429,7 +10599,8 @@ window.VERBOS = [
         "manquée",
         "manquées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "regretter",
@@ -10490,7 +10661,8 @@ window.VERBOS = [
         "regrettée",
         "regrettées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "pleurer",
@@ -10551,7 +10723,8 @@ window.VERBOS = [
         "pleurée",
         "pleurées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "rire",
@@ -10612,7 +10785,8 @@ window.VERBOS = [
         "ri",
         "ri"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "sourire",
@@ -10673,7 +10847,8 @@ window.VERBOS = [
         "souri",
         "souri"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "crier",
@@ -10734,7 +10909,8 @@ window.VERBOS = [
         "criée",
         "criées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "souffrir",
@@ -10795,7 +10971,8 @@ window.VERBOS = [
         "soufferte",
         "souffertes"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "soigner",
@@ -10856,7 +11033,8 @@ window.VERBOS = [
         "soignée",
         "soignées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "guérir",
@@ -10917,7 +11095,8 @@ window.VERBOS = [
         "guérie",
         "guéries"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "tousser",
@@ -10978,7 +11157,8 @@ window.VERBOS = [
         "toussée",
         "toussées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "éternuer",
@@ -11039,7 +11219,8 @@ window.VERBOS = [
         "éternuée",
         "éternuées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "respirer",
@@ -11100,7 +11281,8 @@ window.VERBOS = [
         "respirée",
         "respirées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "blesser",
@@ -11161,7 +11343,8 @@ window.VERBOS = [
         "blessée",
         "blessées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "fatiguer",
@@ -11222,7 +11405,8 @@ window.VERBOS = [
         "fatiguée",
         "fatiguées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "reposer",
@@ -11283,7 +11467,8 @@ window.VERBOS = [
         "reposée",
         "reposées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "calmer",
@@ -11344,7 +11529,8 @@ window.VERBOS = [
         "calmée",
         "calmées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "inquiéter",
@@ -11405,7 +11591,8 @@ window.VERBOS = [
         "inquiétée",
         "inquiétées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "rassurer",
@@ -11466,7 +11653,8 @@ window.VERBOS = [
         "rassurée",
         "rassurées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "téléphoner",
@@ -11527,7 +11715,8 @@ window.VERBOS = [
         "téléphonée",
         "téléphonées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "appeler",
@@ -11588,7 +11777,8 @@ window.VERBOS = [
         "appelée",
         "appelées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "envoyer",
@@ -11649,7 +11839,8 @@ window.VERBOS = [
         "envoyée",
         "envoyées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "discuter",
@@ -11710,7 +11901,8 @@ window.VERBOS = [
         "discutée",
         "discutées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "bavarder",
@@ -11771,7 +11963,8 @@ window.VERBOS = [
         "bavardée",
         "bavardées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "annoncer",
@@ -11832,7 +12025,8 @@ window.VERBOS = [
         "annoncée",
         "annoncées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "informer",
@@ -11893,7 +12087,8 @@ window.VERBOS = [
         "informée",
         "informées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "prévenir",
@@ -11954,7 +12149,8 @@ window.VERBOS = [
         "prévenue",
         "prévenues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "promettre",
@@ -12015,7 +12211,8 @@ window.VERBOS = [
         "promise",
         "promises"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "mentir",
@@ -12076,7 +12273,8 @@ window.VERBOS = [
         "mentie",
         "menties"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "avouer",
@@ -12137,7 +12335,8 @@ window.VERBOS = [
         "avouée",
         "avouées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "nier",
@@ -12198,7 +12397,8 @@ window.VERBOS = [
         "niée",
         "niées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "affirmer",
@@ -12259,7 +12459,8 @@ window.VERBOS = [
         "affirmée",
         "affirmées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "exprimer",
@@ -12320,7 +12521,8 @@ window.VERBOS = [
         "exprimée",
         "exprimées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "décrire",
@@ -12381,7 +12583,8 @@ window.VERBOS = [
         "décrite",
         "décrites"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "traduire",
@@ -12442,7 +12645,8 @@ window.VERBOS = [
         "traduite",
         "traduites"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "prononcer",
@@ -12503,7 +12707,8 @@ window.VERBOS = [
         "prononcée",
         "prononcées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "épeler",
@@ -12564,7 +12769,8 @@ window.VERBOS = [
         "épelée",
         "épelées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "signifier",
@@ -12625,7 +12831,8 @@ window.VERBOS = [
         "signifiée",
         "signifiées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "noter",
@@ -12686,7 +12893,8 @@ window.VERBOS = [
         "notée",
         "notées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "signer",
@@ -12747,7 +12955,8 @@ window.VERBOS = [
         "signée",
         "signées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "remplir",
@@ -12808,7 +13017,8 @@ window.VERBOS = [
         "remplie",
         "remplies"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "vérifier",
@@ -12869,7 +13079,8 @@ window.VERBOS = [
         "vérifiée",
         "vérifiées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "corriger",
@@ -12930,7 +13141,8 @@ window.VERBOS = [
         "corrigée",
         "corrigées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "comparer",
@@ -12991,7 +13203,8 @@ window.VERBOS = [
         "comparée",
         "comparées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "mesurer",
@@ -13052,7 +13265,8 @@ window.VERBOS = [
         "mesurée",
         "mesurées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "peser",
@@ -13113,7 +13327,8 @@ window.VERBOS = [
         "pesée",
         "pesées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "calculer",
@@ -13174,7 +13389,8 @@ window.VERBOS = [
         "calculée",
         "calculées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "augmenter",
@@ -13235,7 +13451,8 @@ window.VERBOS = [
         "augmentée",
         "augmentées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "diminuer",
@@ -13296,7 +13513,8 @@ window.VERBOS = [
         "diminuée",
         "diminuées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "réduire",
@@ -13357,7 +13575,8 @@ window.VERBOS = [
         "réduite",
         "réduites"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "améliorer",
@@ -13418,7 +13637,8 @@ window.VERBOS = [
         "améliorée",
         "améliorées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "développer",
@@ -13479,7 +13699,8 @@ window.VERBOS = [
         "développée",
         "développées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "créer",
@@ -13540,7 +13761,8 @@ window.VERBOS = [
         "créée",
         "créées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "inventer",
@@ -13601,7 +13823,8 @@ window.VERBOS = [
         "inventée",
         "inventées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "dessiner",
@@ -13662,7 +13885,8 @@ window.VERBOS = [
         "dessinée",
         "dessinées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "peindre",
@@ -13723,7 +13947,8 @@ window.VERBOS = [
         "peinte",
         "peintes"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "chanter",
@@ -13784,7 +14009,8 @@ window.VERBOS = [
         "chantée",
         "chantées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "danser",
@@ -13845,7 +14071,8 @@ window.VERBOS = [
         "dansée",
         "dansées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "jouer",
@@ -13906,7 +14133,8 @@ window.VERBOS = [
         "jouée",
         "jouées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "enregistrer",
@@ -13967,7 +14195,8 @@ window.VERBOS = [
         "enregistrée",
         "enregistrées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "publier",
@@ -14028,7 +14257,8 @@ window.VERBOS = [
         "publiée",
         "publiées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "imprimer",
@@ -14089,7 +14319,8 @@ window.VERBOS = [
         "imprimée",
         "imprimées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "allumer",
@@ -14150,7 +14381,8 @@ window.VERBOS = [
         "allumée",
         "allumées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "éteindre",
@@ -14211,7 +14443,8 @@ window.VERBOS = [
         "éteinte",
         "éteintes"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "brancher",
@@ -14272,7 +14505,8 @@ window.VERBOS = [
         "branchée",
         "branchées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "cliquer",
@@ -14333,7 +14567,8 @@ window.VERBOS = [
         "cliquée",
         "cliquées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "télécharger",
@@ -14394,7 +14629,8 @@ window.VERBOS = [
         "téléchargée",
         "téléchargées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "sauvegarder",
@@ -14455,7 +14691,8 @@ window.VERBOS = [
         "sauvegardée",
         "sauvegardées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "supprimer",
@@ -14516,7 +14753,8 @@ window.VERBOS = [
         "supprimée",
         "supprimées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "copier",
@@ -14577,7 +14815,8 @@ window.VERBOS = [
         "copiée",
         "copiées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "coller",
@@ -14638,7 +14877,8 @@ window.VERBOS = [
         "collée",
         "collées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "fonctionner",
@@ -14699,7 +14939,8 @@ window.VERBOS = [
         "fonctionnée",
         "fonctionnées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "durer",
@@ -14760,7 +15001,8 @@ window.VERBOS = [
         "durée",
         "durées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "exister",
@@ -14821,7 +15063,8 @@ window.VERBOS = [
         "existée",
         "existées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "appartenir",
@@ -14882,7 +15125,8 @@ window.VERBOS = [
         "appartenue",
         "appartenues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "dépendre",
@@ -14943,7 +15187,8 @@ window.VERBOS = [
         "dépendue",
         "dépendues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "contenir",
@@ -15004,7 +15249,8 @@ window.VERBOS = [
         "contenue",
         "contenues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "inclure",
@@ -15065,7 +15311,8 @@ window.VERBOS = [
         "incluse",
         "incluses"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "valoir",
@@ -15126,7 +15373,8 @@ window.VERBOS = [
         "value",
         "values"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "falloir",
@@ -15187,7 +15435,8 @@ window.VERBOS = [
         "fallu",
         "fallu"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "pleuvoir",
@@ -15248,7 +15497,8 @@ window.VERBOS = [
         "plu",
         "plu"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "neiger",
@@ -15309,7 +15559,8 @@ window.VERBOS = [
         "neigée",
         "neigées"
       ]
-    }
+    },
+    "level": "A1"
   },
   {
     "fr": "geler",
@@ -15370,7 +15621,8 @@ window.VERBOS = [
         "gelée",
         "gelées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "briller",
@@ -15431,7 +15683,8 @@ window.VERBOS = [
         "brillée",
         "brillées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "éclairer",
@@ -15492,7 +15745,8 @@ window.VERBOS = [
         "éclairée",
         "éclairées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "souffler",
@@ -15553,7 +15807,8 @@ window.VERBOS = [
         "soufflée",
         "soufflées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "pousser",
@@ -15614,7 +15869,8 @@ window.VERBOS = [
         "poussée",
         "poussées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "tirer",
@@ -15675,7 +15931,8 @@ window.VERBOS = [
         "tirée",
         "tirées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "jeter",
@@ -15736,7 +15993,8 @@ window.VERBOS = [
         "jetée",
         "jetées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "lancer",
@@ -15797,7 +16055,8 @@ window.VERBOS = [
         "lancée",
         "lancées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "attraper",
@@ -15858,7 +16117,8 @@ window.VERBOS = [
         "attrapée",
         "attrapées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "toucher",
@@ -15919,7 +16179,8 @@ window.VERBOS = [
         "touchée",
         "touchées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "frapper",
@@ -15980,7 +16241,8 @@ window.VERBOS = [
         "frappée",
         "frappées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "casser",
@@ -16041,7 +16303,8 @@ window.VERBOS = [
         "cassée",
         "cassées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "brûler",
@@ -16102,7 +16365,8 @@ window.VERBOS = [
         "brûlée",
         "brûlées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "fondre",
@@ -16163,7 +16427,8 @@ window.VERBOS = [
         "fondue",
         "fondues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "couler",
@@ -16224,7 +16489,8 @@ window.VERBOS = [
         "coulée",
         "coulées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "remplacer",
@@ -16285,7 +16551,8 @@ window.VERBOS = [
         "remplacée",
         "remplacées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "enlever",
@@ -16346,7 +16613,8 @@ window.VERBOS = [
         "enlevée",
         "enlevées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "poser",
@@ -16407,7 +16675,8 @@ window.VERBOS = [
         "posée",
         "posées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "ramasser",
@@ -16468,7 +16737,8 @@ window.VERBOS = [
         "ramassée",
         "ramassées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "cueillir",
@@ -16529,7 +16799,8 @@ window.VERBOS = [
         "cueillie",
         "cueillies"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "planter",
@@ -16590,7 +16861,8 @@ window.VERBOS = [
         "plantée",
         "plantées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "arroser",
@@ -16651,7 +16923,8 @@ window.VERBOS = [
         "arrosée",
         "arrosées"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "nourrir",
@@ -16712,7 +16985,8 @@ window.VERBOS = [
         "nourrie",
         "nourries"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "grandir",
@@ -16773,7 +17047,8 @@ window.VERBOS = [
         "grandie",
         "grandies"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "vieillir",
@@ -16834,7 +17109,8 @@ window.VERBOS = [
         "vieillie",
         "vieillies"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "grossir",
@@ -16895,7 +17171,8 @@ window.VERBOS = [
         "grossie",
         "grossies"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "maigrir",
@@ -16956,7 +17233,8 @@ window.VERBOS = [
         "maigrie",
         "maigries"
       ]
-    }
+    },
+    "level": "A2"
   },
   {
     "fr": "remarquer",
@@ -17017,7 +17295,8 @@ window.VERBOS = [
         "remarquée",
         "remarquées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "reconnaître",
@@ -17078,7 +17357,8 @@ window.VERBOS = [
         "reconnue",
         "reconnues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "découvrir",
@@ -17139,7 +17419,8 @@ window.VERBOS = [
         "découverte",
         "découvertes"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "surprendre",
@@ -17200,7 +17481,8 @@ window.VERBOS = [
         "surprise",
         "surprises"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "éviter",
@@ -17261,7 +17543,8 @@ window.VERBOS = [
         "évitée",
         "évitées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "empêcher",
@@ -17322,7 +17605,8 @@ window.VERBOS = [
         "empêchée",
         "empêchées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "supporter",
@@ -17383,7 +17667,8 @@ window.VERBOS = [
         "supportée",
         "supportées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "participer",
@@ -17444,7 +17729,8 @@ window.VERBOS = [
         "participée",
         "participées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "assister",
@@ -17505,7 +17791,8 @@ window.VERBOS = [
         "assistée",
         "assistées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "assurer",
@@ -17566,7 +17853,8 @@ window.VERBOS = [
         "assurée",
         "assurées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "abandonner",
@@ -17627,7 +17915,8 @@ window.VERBOS = [
         "abandonnée",
         "abandonnées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "profiter",
@@ -17688,7 +17977,8 @@ window.VERBOS = [
         "profitée",
         "profitées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "mériter",
@@ -17749,7 +18039,8 @@ window.VERBOS = [
         "méritée",
         "méritées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "risquer",
@@ -17810,7 +18101,8 @@ window.VERBOS = [
         "risquée",
         "risquées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "traiter",
@@ -17871,7 +18163,8 @@ window.VERBOS = [
         "traitée",
         "traitées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "résoudre",
@@ -17932,7 +18225,8 @@ window.VERBOS = [
         "résoute",
         "résoutes"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "obtenir",
@@ -17993,7 +18287,8 @@ window.VERBOS = [
         "obtenue",
         "obtenues"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "exiger",
@@ -18054,7 +18349,8 @@ window.VERBOS = [
         "exigée",
         "exigées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "autoriser",
@@ -18115,7 +18411,8 @@ window.VERBOS = [
         "autorisée",
         "autorisées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "voter",
@@ -18176,7 +18473,8 @@ window.VERBOS = [
         "votée",
         "votées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "économiser",
@@ -18237,7 +18535,8 @@ window.VERBOS = [
         "économisée",
         "économisées"
       ]
-    }
+    },
+    "level": "B1"
   },
   {
     "fr": "dépenser",
@@ -18297,6 +18596,3107 @@ window.VERBOS = [
         "dépensés",
         "dépensée",
         "dépensées"
+      ]
+    },
+    "level": "B1"
+  },
+  {
+    "fr": "agir",
+    "es": "actuar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "agis",
+        "agis",
+        "agit",
+        "agissons",
+        "agissez",
+        "agissent"
+      ],
+      "I": [
+        "agissais",
+        "agissais",
+        "agissait",
+        "agissions",
+        "agissiez",
+        "agissaient"
+      ],
+      "F": [
+        "agirai",
+        "agiras",
+        "agira",
+        "agirons",
+        "agirez",
+        "agiront"
+      ],
+      "C": [
+        "agirais",
+        "agirais",
+        "agirait",
+        "agirions",
+        "agiriez",
+        "agiraient"
+      ],
+      "S": [
+        "agisse",
+        "agisses",
+        "agisse",
+        "agissions",
+        "agissiez",
+        "agissent"
+      ],
+      "Y": [
+        "NA",
+        "agis",
+        "NA",
+        "agissons",
+        "agissez",
+        "NA"
+      ],
+      "K": [
+        "agi",
+        "agis",
+        "agie",
+        "agies"
+      ]
+    }
+  },
+  {
+    "fr": "réfléchir",
+    "es": "reflexionar",
+    "core": false,
+    "level": "A2",
+    "forms": {
+      "P": [
+        "réfléchis",
+        "réfléchis",
+        "réfléchit",
+        "réfléchissons",
+        "réfléchissez",
+        "réfléchissent"
+      ],
+      "I": [
+        "réfléchissais",
+        "réfléchissais",
+        "réfléchissait",
+        "réfléchissions",
+        "réfléchissiez",
+        "réfléchissaient"
+      ],
+      "F": [
+        "réfléchirai",
+        "réfléchiras",
+        "réfléchira",
+        "réfléchirons",
+        "réfléchirez",
+        "réfléchiront"
+      ],
+      "C": [
+        "réfléchirais",
+        "réfléchirais",
+        "réfléchirait",
+        "réfléchirions",
+        "réfléchiriez",
+        "réfléchiraient"
+      ],
+      "S": [
+        "réfléchisse",
+        "réfléchisses",
+        "réfléchisse",
+        "réfléchissions",
+        "réfléchissiez",
+        "réfléchissent"
+      ],
+      "Y": [
+        "NA",
+        "réfléchis",
+        "NA",
+        "réfléchissons",
+        "réfléchissez",
+        "NA"
+      ],
+      "K": [
+        "réfléchi",
+        "réfléchis",
+        "réfléchie",
+        "réfléchies"
+      ]
+    }
+  },
+  {
+    "fr": "analyser",
+    "es": "analizar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "analyse",
+        "analyses",
+        "analyse",
+        "analysons",
+        "analysez",
+        "analysent"
+      ],
+      "I": [
+        "analysais",
+        "analysais",
+        "analysait",
+        "analysions",
+        "analysiez",
+        "analysaient"
+      ],
+      "F": [
+        "analyserai",
+        "analyseras",
+        "analysera",
+        "analyserons",
+        "analyserez",
+        "analyseront"
+      ],
+      "C": [
+        "analyserais",
+        "analyserais",
+        "analyserait",
+        "analyserions",
+        "analyseriez",
+        "analyseraient"
+      ],
+      "S": [
+        "analyse",
+        "analyses",
+        "analyse",
+        "analysions",
+        "analysiez",
+        "analysent"
+      ],
+      "Y": [
+        "NA",
+        "analyse",
+        "NA",
+        "analysons",
+        "analysez",
+        "NA"
+      ],
+      "K": [
+        "analysé",
+        "analysés",
+        "analysée",
+        "analysées"
+      ]
+    }
+  },
+  {
+    "fr": "considérer",
+    "es": "considerar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "considère",
+        "considères",
+        "considère",
+        "considérons",
+        "considérez",
+        "considèrent"
+      ],
+      "I": [
+        "considérais",
+        "considérais",
+        "considérait",
+        "considérions",
+        "considériez",
+        "considéraient"
+      ],
+      "F": [
+        "considérerai",
+        "considéreras",
+        "considérera",
+        "considérerons",
+        "considérerez",
+        "considéreront"
+      ],
+      "C": [
+        "considérerais",
+        "considérerais",
+        "considérerait",
+        "considérerions",
+        "considéreriez",
+        "considéreraient"
+      ],
+      "S": [
+        "considère",
+        "considères",
+        "considère",
+        "considérions",
+        "considériez",
+        "considèrent"
+      ],
+      "Y": [
+        "NA",
+        "considère",
+        "NA",
+        "considérons",
+        "considérez",
+        "NA"
+      ],
+      "K": [
+        "considéré",
+        "considérés",
+        "considérée",
+        "considérées"
+      ]
+    }
+  },
+  {
+    "fr": "supposer",
+    "es": "suponer",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "suppose",
+        "supposes",
+        "suppose",
+        "supposons",
+        "supposez",
+        "supposent"
+      ],
+      "I": [
+        "supposais",
+        "supposais",
+        "supposait",
+        "supposions",
+        "supposiez",
+        "supposaient"
+      ],
+      "F": [
+        "supposerai",
+        "supposeras",
+        "supposera",
+        "supposerons",
+        "supposerez",
+        "supposeront"
+      ],
+      "C": [
+        "supposerais",
+        "supposerais",
+        "supposerait",
+        "supposerions",
+        "supposeriez",
+        "supposeraient"
+      ],
+      "S": [
+        "suppose",
+        "supposes",
+        "suppose",
+        "supposions",
+        "supposiez",
+        "supposent"
+      ],
+      "Y": [
+        "NA",
+        "suppose",
+        "NA",
+        "supposons",
+        "supposez",
+        "NA"
+      ],
+      "K": [
+        "supposé",
+        "supposés",
+        "supposée",
+        "supposées"
+      ]
+    }
+  },
+  {
+    "fr": "constater",
+    "es": "constatar / comprobar un hecho",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "constate",
+        "constates",
+        "constate",
+        "constatons",
+        "constatez",
+        "constatent"
+      ],
+      "I": [
+        "constatais",
+        "constatais",
+        "constatait",
+        "constations",
+        "constatiez",
+        "constataient"
+      ],
+      "F": [
+        "constaterai",
+        "constateras",
+        "constatera",
+        "constaterons",
+        "constaterez",
+        "constateront"
+      ],
+      "C": [
+        "constaterais",
+        "constaterais",
+        "constaterait",
+        "constaterions",
+        "constateriez",
+        "constateraient"
+      ],
+      "S": [
+        "constate",
+        "constates",
+        "constate",
+        "constations",
+        "constatiez",
+        "constatent"
+      ],
+      "Y": [
+        "NA",
+        "constate",
+        "NA",
+        "constatons",
+        "constatez",
+        "NA"
+      ],
+      "K": [
+        "constaté",
+        "constatés",
+        "constatée",
+        "constatées"
+      ]
+    }
+  },
+  {
+    "fr": "évoquer",
+    "es": "mencionar / evocar",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "évoque",
+        "évoques",
+        "évoque",
+        "évoquons",
+        "évoquez",
+        "évoquent"
+      ],
+      "I": [
+        "évoquais",
+        "évoquais",
+        "évoquait",
+        "évoquions",
+        "évoquiez",
+        "évoquaient"
+      ],
+      "F": [
+        "évoquerai",
+        "évoqueras",
+        "évoquera",
+        "évoquerons",
+        "évoquerez",
+        "évoqueront"
+      ],
+      "C": [
+        "évoquerais",
+        "évoquerais",
+        "évoquerait",
+        "évoquerions",
+        "évoqueriez",
+        "évoqueraient"
+      ],
+      "S": [
+        "évoque",
+        "évoques",
+        "évoque",
+        "évoquions",
+        "évoquiez",
+        "évoquent"
+      ],
+      "Y": [
+        "NA",
+        "évoque",
+        "NA",
+        "évoquons",
+        "évoquez",
+        "NA"
+      ],
+      "K": [
+        "évoqué",
+        "évoqués",
+        "évoquée",
+        "évoquées"
+      ]
+    }
+  },
+  {
+    "fr": "souligner",
+    "es": "subrayar / destacar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "souligne",
+        "soulignes",
+        "souligne",
+        "soulignons",
+        "soulignez",
+        "soulignent"
+      ],
+      "I": [
+        "soulignais",
+        "soulignais",
+        "soulignait",
+        "soulignions",
+        "souligniez",
+        "soulignaient"
+      ],
+      "F": [
+        "soulignerai",
+        "souligneras",
+        "soulignera",
+        "soulignerons",
+        "soulignerez",
+        "souligneront"
+      ],
+      "C": [
+        "soulignerais",
+        "soulignerais",
+        "soulignerait",
+        "soulignerions",
+        "souligneriez",
+        "souligneraient"
+      ],
+      "S": [
+        "souligne",
+        "soulignes",
+        "souligne",
+        "soulignions",
+        "souligniez",
+        "soulignent"
+      ],
+      "Y": [
+        "NA",
+        "souligne",
+        "NA",
+        "soulignons",
+        "soulignez",
+        "NA"
+      ],
+      "K": [
+        "souligné",
+        "soulignés",
+        "soulignée",
+        "soulignées"
+      ]
+    }
+  },
+  {
+    "fr": "préciser",
+    "es": "precisar / aclarar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "précise",
+        "précises",
+        "précise",
+        "précisons",
+        "précisez",
+        "précisent"
+      ],
+      "I": [
+        "précisais",
+        "précisais",
+        "précisait",
+        "précisions",
+        "précisiez",
+        "précisaient"
+      ],
+      "F": [
+        "préciserai",
+        "préciseras",
+        "précisera",
+        "préciserons",
+        "préciserez",
+        "préciseront"
+      ],
+      "C": [
+        "préciserais",
+        "préciserais",
+        "préciserait",
+        "préciserions",
+        "préciseriez",
+        "préciseraient"
+      ],
+      "S": [
+        "précise",
+        "précises",
+        "précise",
+        "précisions",
+        "précisiez",
+        "précisent"
+      ],
+      "Y": [
+        "NA",
+        "précise",
+        "NA",
+        "précisons",
+        "précisez",
+        "NA"
+      ],
+      "K": [
+        "précisé",
+        "précisés",
+        "précisée",
+        "précisées"
+      ]
+    }
+  },
+  {
+    "fr": "convaincre",
+    "es": "convencer",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "convaincs",
+        "convaincs",
+        "convainc",
+        "convainquons",
+        "convainquez",
+        "convainquent"
+      ],
+      "I": [
+        "convainquais",
+        "convainquais",
+        "convainquait",
+        "convainquions",
+        "convainquiez",
+        "convainquaient"
+      ],
+      "F": [
+        "convaincrai",
+        "convaincras",
+        "convaincra",
+        "convaincrons",
+        "convaincrez",
+        "convaincront"
+      ],
+      "C": [
+        "convaincrais",
+        "convaincrais",
+        "convaincrait",
+        "convaincrions",
+        "convaincriez",
+        "convaincraient"
+      ],
+      "S": [
+        "convainque",
+        "convainques",
+        "convainque",
+        "convainquions",
+        "convainquiez",
+        "convainquent"
+      ],
+      "Y": [
+        "NA",
+        "convaincs",
+        "NA",
+        "convainquons",
+        "convainquez",
+        "NA"
+      ],
+      "K": [
+        "convaincu",
+        "convaincus",
+        "convaincue",
+        "convaincues"
+      ]
+    }
+  },
+  {
+    "fr": "persuader",
+    "es": "persuadir",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "persuade",
+        "persuades",
+        "persuade",
+        "persuadons",
+        "persuadez",
+        "persuadent"
+      ],
+      "I": [
+        "persuadais",
+        "persuadais",
+        "persuadait",
+        "persuadions",
+        "persuadiez",
+        "persuadaient"
+      ],
+      "F": [
+        "persuaderai",
+        "persuaderas",
+        "persuadera",
+        "persuaderons",
+        "persuaderez",
+        "persuaderont"
+      ],
+      "C": [
+        "persuaderais",
+        "persuaderais",
+        "persuaderait",
+        "persuaderions",
+        "persuaderiez",
+        "persuaderaient"
+      ],
+      "S": [
+        "persuade",
+        "persuades",
+        "persuade",
+        "persuadions",
+        "persuadiez",
+        "persuadent"
+      ],
+      "Y": [
+        "NA",
+        "persuade",
+        "NA",
+        "persuadons",
+        "persuadez",
+        "NA"
+      ],
+      "K": [
+        "persuadé",
+        "persuadés",
+        "persuadée",
+        "persuadées"
+      ]
+    }
+  },
+  {
+    "fr": "débattre",
+    "es": "debatir",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "débats",
+        "débats",
+        "débat",
+        "débattons",
+        "débattez",
+        "débattent"
+      ],
+      "I": [
+        "débattais",
+        "débattais",
+        "débattait",
+        "débattions",
+        "débattiez",
+        "débattaient"
+      ],
+      "F": [
+        "débattrai",
+        "débattras",
+        "débattra",
+        "débattrons",
+        "débattrez",
+        "débattront"
+      ],
+      "C": [
+        "débattrais",
+        "débattrais",
+        "débattrait",
+        "débattrions",
+        "débattriez",
+        "débattraient"
+      ],
+      "S": [
+        "débatte",
+        "débattes",
+        "débatte",
+        "débattions",
+        "débattiez",
+        "débattent"
+      ],
+      "Y": [
+        "NA",
+        "débats",
+        "NA",
+        "débattons",
+        "débattez",
+        "NA"
+      ],
+      "K": [
+        "débattu",
+        "débattus",
+        "débattue",
+        "débattues"
+      ]
+    }
+  },
+  {
+    "fr": "négocier",
+    "es": "negociar",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "négocie",
+        "négocies",
+        "négocie",
+        "négocions",
+        "négociez",
+        "négocient"
+      ],
+      "I": [
+        "négociais",
+        "négociais",
+        "négociait",
+        "négociions",
+        "négociiez",
+        "négociaient"
+      ],
+      "F": [
+        "négocierai",
+        "négocieras",
+        "négociera",
+        "négocierons",
+        "négocierez",
+        "négocieront"
+      ],
+      "C": [
+        "négocierais",
+        "négocierais",
+        "négocierait",
+        "négocierions",
+        "négocieriez",
+        "négocieraient"
+      ],
+      "S": [
+        "négocie",
+        "négocies",
+        "négocie",
+        "négociions",
+        "négociiez",
+        "négocient"
+      ],
+      "Y": [
+        "NA",
+        "négocie",
+        "NA",
+        "négocions",
+        "négociez",
+        "NA"
+      ],
+      "K": [
+        "négocié",
+        "négociés",
+        "négociée",
+        "négociées"
+      ]
+    }
+  },
+  {
+    "fr": "revendiquer",
+    "es": "reivindicar",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "revendique",
+        "revendiques",
+        "revendique",
+        "revendiquons",
+        "revendiquez",
+        "revendiquent"
+      ],
+      "I": [
+        "revendiquais",
+        "revendiquais",
+        "revendiquait",
+        "revendiquions",
+        "revendiquiez",
+        "revendiquaient"
+      ],
+      "F": [
+        "revendiquerai",
+        "revendiqueras",
+        "revendiquera",
+        "revendiquerons",
+        "revendiquerez",
+        "revendiqueront"
+      ],
+      "C": [
+        "revendiquerais",
+        "revendiquerais",
+        "revendiquerait",
+        "revendiquerions",
+        "revendiqueriez",
+        "revendiqueraient"
+      ],
+      "S": [
+        "revendique",
+        "revendiques",
+        "revendique",
+        "revendiquions",
+        "revendiquiez",
+        "revendiquent"
+      ],
+      "Y": [
+        "NA",
+        "revendique",
+        "NA",
+        "revendiquons",
+        "revendiquez",
+        "NA"
+      ],
+      "K": [
+        "revendiqué",
+        "revendiqués",
+        "revendiquée",
+        "revendiquées"
+      ]
+    }
+  },
+  {
+    "fr": "défendre",
+    "es": "defender",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "défends",
+        "défends",
+        "défend",
+        "défendons",
+        "défendez",
+        "défendent"
+      ],
+      "I": [
+        "défendais",
+        "défendais",
+        "défendait",
+        "défendions",
+        "défendiez",
+        "défendaient"
+      ],
+      "F": [
+        "défendrai",
+        "défendras",
+        "défendra",
+        "défendrons",
+        "défendrez",
+        "défendront"
+      ],
+      "C": [
+        "défendrais",
+        "défendrais",
+        "défendrait",
+        "défendrions",
+        "défendriez",
+        "défendraient"
+      ],
+      "S": [
+        "défende",
+        "défendes",
+        "défende",
+        "défendions",
+        "défendiez",
+        "défendent"
+      ],
+      "Y": [
+        "NA",
+        "défends",
+        "NA",
+        "défendons",
+        "défendez",
+        "NA"
+      ],
+      "K": [
+        "défendu",
+        "défendus",
+        "défendue",
+        "défendues"
+      ]
+    }
+  },
+  {
+    "fr": "contester",
+    "es": "cuestionar / impugnar",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "conteste",
+        "contestes",
+        "conteste",
+        "contestons",
+        "contestez",
+        "contestent"
+      ],
+      "I": [
+        "contestais",
+        "contestais",
+        "contestait",
+        "contestions",
+        "contestiez",
+        "contestaient"
+      ],
+      "F": [
+        "contesterai",
+        "contesteras",
+        "contestera",
+        "contesterons",
+        "contesterez",
+        "contesteront"
+      ],
+      "C": [
+        "contesterais",
+        "contesterais",
+        "contesterait",
+        "contesterions",
+        "contesteriez",
+        "contesteraient"
+      ],
+      "S": [
+        "conteste",
+        "contestes",
+        "conteste",
+        "contestions",
+        "contestiez",
+        "contestent"
+      ],
+      "Y": [
+        "NA",
+        "conteste",
+        "NA",
+        "contestons",
+        "contestez",
+        "NA"
+      ],
+      "K": [
+        "contesté",
+        "contestés",
+        "contestée",
+        "contestées"
+      ]
+    }
+  },
+  {
+    "fr": "approuver",
+    "es": "aprobar una idea",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "approuve",
+        "approuves",
+        "approuve",
+        "approuvons",
+        "approuvez",
+        "approuvent"
+      ],
+      "I": [
+        "approuvais",
+        "approuvais",
+        "approuvait",
+        "approuvions",
+        "approuviez",
+        "approuvaient"
+      ],
+      "F": [
+        "approuverai",
+        "approuveras",
+        "approuvera",
+        "approuverons",
+        "approuverez",
+        "approuveront"
+      ],
+      "C": [
+        "approuverais",
+        "approuverais",
+        "approuverait",
+        "approuverions",
+        "approuveriez",
+        "approuveraient"
+      ],
+      "S": [
+        "approuve",
+        "approuves",
+        "approuve",
+        "approuvions",
+        "approuviez",
+        "approuvent"
+      ],
+      "Y": [
+        "NA",
+        "approuve",
+        "NA",
+        "approuvons",
+        "approuvez",
+        "NA"
+      ],
+      "K": [
+        "approuvé",
+        "approuvés",
+        "approuvée",
+        "approuvées"
+      ]
+    }
+  },
+  {
+    "fr": "critiquer",
+    "es": "criticar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "critique",
+        "critiques",
+        "critique",
+        "critiquons",
+        "critiquez",
+        "critiquent"
+      ],
+      "I": [
+        "critiquais",
+        "critiquais",
+        "critiquait",
+        "critiquions",
+        "critiquiez",
+        "critiquaient"
+      ],
+      "F": [
+        "critiquerai",
+        "critiqueras",
+        "critiquera",
+        "critiquerons",
+        "critiquerez",
+        "critiqueront"
+      ],
+      "C": [
+        "critiquerais",
+        "critiquerais",
+        "critiquerait",
+        "critiquerions",
+        "critiqueriez",
+        "critiqueraient"
+      ],
+      "S": [
+        "critique",
+        "critiques",
+        "critique",
+        "critiquions",
+        "critiquiez",
+        "critiquent"
+      ],
+      "Y": [
+        "NA",
+        "critique",
+        "NA",
+        "critiquons",
+        "critiquez",
+        "NA"
+      ],
+      "K": [
+        "critiqué",
+        "critiqués",
+        "critiquée",
+        "critiquées"
+      ]
+    }
+  },
+  {
+    "fr": "justifier",
+    "es": "justificar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "justifie",
+        "justifies",
+        "justifie",
+        "justifions",
+        "justifiez",
+        "justifient"
+      ],
+      "I": [
+        "justifiais",
+        "justifiais",
+        "justifiait",
+        "justifiions",
+        "justifiiez",
+        "justifiaient"
+      ],
+      "F": [
+        "justifierai",
+        "justifieras",
+        "justifiera",
+        "justifierons",
+        "justifierez",
+        "justifieront"
+      ],
+      "C": [
+        "justifierais",
+        "justifierais",
+        "justifierait",
+        "justifierions",
+        "justifieriez",
+        "justifieraient"
+      ],
+      "S": [
+        "justifie",
+        "justifies",
+        "justifie",
+        "justifiions",
+        "justifiiez",
+        "justifient"
+      ],
+      "Y": [
+        "NA",
+        "justifie",
+        "NA",
+        "justifions",
+        "justifiez",
+        "NA"
+      ],
+      "K": [
+        "justifié",
+        "justifiés",
+        "justifiée",
+        "justifiées"
+      ]
+    }
+  },
+  {
+    "fr": "démontrer",
+    "es": "demostrar con razonamientos",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "démontre",
+        "démontres",
+        "démontre",
+        "démontrons",
+        "démontrez",
+        "démontrent"
+      ],
+      "I": [
+        "démontrais",
+        "démontrais",
+        "démontrait",
+        "démontrions",
+        "démontriez",
+        "démontraient"
+      ],
+      "F": [
+        "démontrerai",
+        "démontreras",
+        "démontrera",
+        "démontrerons",
+        "démontrerez",
+        "démontreront"
+      ],
+      "C": [
+        "démontrerais",
+        "démontrerais",
+        "démontrerait",
+        "démontrerions",
+        "démontreriez",
+        "démontreraient"
+      ],
+      "S": [
+        "démontre",
+        "démontres",
+        "démontre",
+        "démontrions",
+        "démontriez",
+        "démontrent"
+      ],
+      "Y": [
+        "NA",
+        "démontre",
+        "NA",
+        "démontrons",
+        "démontrez",
+        "NA"
+      ],
+      "K": [
+        "démontré",
+        "démontrés",
+        "démontrée",
+        "démontrées"
+      ]
+    }
+  },
+  {
+    "fr": "prouver",
+    "es": "probar / demostrar un hecho",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "prouve",
+        "prouves",
+        "prouve",
+        "prouvons",
+        "prouvez",
+        "prouvent"
+      ],
+      "I": [
+        "prouvais",
+        "prouvais",
+        "prouvait",
+        "prouvions",
+        "prouviez",
+        "prouvaient"
+      ],
+      "F": [
+        "prouverai",
+        "prouveras",
+        "prouvera",
+        "prouverons",
+        "prouverez",
+        "prouveront"
+      ],
+      "C": [
+        "prouverais",
+        "prouverais",
+        "prouverait",
+        "prouverions",
+        "prouveriez",
+        "prouveraient"
+      ],
+      "S": [
+        "prouve",
+        "prouves",
+        "prouve",
+        "prouvions",
+        "prouviez",
+        "prouvent"
+      ],
+      "Y": [
+        "NA",
+        "prouve",
+        "NA",
+        "prouvons",
+        "prouvez",
+        "NA"
+      ],
+      "K": [
+        "prouvé",
+        "prouvés",
+        "prouvée",
+        "prouvées"
+      ]
+    }
+  },
+  {
+    "fr": "évaluer",
+    "es": "evaluar",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "évalue",
+        "évalues",
+        "évalue",
+        "évaluons",
+        "évaluez",
+        "évaluent"
+      ],
+      "I": [
+        "évaluais",
+        "évaluais",
+        "évaluait",
+        "évaluions",
+        "évaluiez",
+        "évaluaient"
+      ],
+      "F": [
+        "évaluerai",
+        "évalueras",
+        "évaluera",
+        "évaluerons",
+        "évaluerez",
+        "évalueront"
+      ],
+      "C": [
+        "évaluerais",
+        "évaluerais",
+        "évaluerait",
+        "évaluerions",
+        "évalueriez",
+        "évalueraient"
+      ],
+      "S": [
+        "évalue",
+        "évalues",
+        "évalue",
+        "évaluions",
+        "évaluiez",
+        "évaluent"
+      ],
+      "Y": [
+        "NA",
+        "évalue",
+        "NA",
+        "évaluons",
+        "évaluez",
+        "NA"
+      ],
+      "K": [
+        "évalué",
+        "évalués",
+        "évaluée",
+        "évaluées"
+      ]
+    }
+  },
+  {
+    "fr": "estimer",
+    "es": "estimar / calcular aproximadamente",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "estime",
+        "estimes",
+        "estime",
+        "estimons",
+        "estimez",
+        "estiment"
+      ],
+      "I": [
+        "estimais",
+        "estimais",
+        "estimait",
+        "estimions",
+        "estimiez",
+        "estimaient"
+      ],
+      "F": [
+        "estimerai",
+        "estimeras",
+        "estimera",
+        "estimerons",
+        "estimerez",
+        "estimeront"
+      ],
+      "C": [
+        "estimerais",
+        "estimerais",
+        "estimerait",
+        "estimerions",
+        "estimeriez",
+        "estimeraient"
+      ],
+      "S": [
+        "estime",
+        "estimes",
+        "estime",
+        "estimions",
+        "estimiez",
+        "estiment"
+      ],
+      "Y": [
+        "NA",
+        "estime",
+        "NA",
+        "estimons",
+        "estimez",
+        "NA"
+      ],
+      "K": [
+        "estimé",
+        "estimés",
+        "estimée",
+        "estimées"
+      ]
+    }
+  },
+  {
+    "fr": "contribuer",
+    "es": "contribuir",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "contribue",
+        "contribues",
+        "contribue",
+        "contribuons",
+        "contribuez",
+        "contribuent"
+      ],
+      "I": [
+        "contribuais",
+        "contribuais",
+        "contribuait",
+        "contribuions",
+        "contribuiez",
+        "contribuaient"
+      ],
+      "F": [
+        "contribuerai",
+        "contribueras",
+        "contribuera",
+        "contribuerons",
+        "contribuerez",
+        "contribueront"
+      ],
+      "C": [
+        "contribuerais",
+        "contribuerais",
+        "contribuerait",
+        "contribuerions",
+        "contribueriez",
+        "contribueraient"
+      ],
+      "S": [
+        "contribue",
+        "contribues",
+        "contribue",
+        "contribuions",
+        "contribuiez",
+        "contribuent"
+      ],
+      "Y": [
+        "NA",
+        "contribue",
+        "NA",
+        "contribuons",
+        "contribuez",
+        "NA"
+      ],
+      "K": [
+        "contribué",
+        "contribués",
+        "contribuée",
+        "contribuées"
+      ]
+    }
+  },
+  {
+    "fr": "favoriser",
+    "es": "favorecer",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "favorise",
+        "favorises",
+        "favorise",
+        "favorisons",
+        "favorisez",
+        "favorisent"
+      ],
+      "I": [
+        "favorisais",
+        "favorisais",
+        "favorisait",
+        "favorisions",
+        "favorisiez",
+        "favorisaient"
+      ],
+      "F": [
+        "favoriserai",
+        "favoriseras",
+        "favorisera",
+        "favoriserons",
+        "favoriserez",
+        "favoriseront"
+      ],
+      "C": [
+        "favoriserais",
+        "favoriserais",
+        "favoriserait",
+        "favoriserions",
+        "favoriseriez",
+        "favoriseraient"
+      ],
+      "S": [
+        "favorise",
+        "favorises",
+        "favorise",
+        "favorisions",
+        "favorisiez",
+        "favorisent"
+      ],
+      "Y": [
+        "NA",
+        "favorise",
+        "NA",
+        "favorisons",
+        "favorisez",
+        "NA"
+      ],
+      "K": [
+        "favorisé",
+        "favorisés",
+        "favorisée",
+        "favorisées"
+      ]
+    }
+  },
+  {
+    "fr": "renforcer",
+    "es": "reforzar",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "renforce",
+        "renforces",
+        "renforce",
+        "renforçons",
+        "renforcez",
+        "renforcent"
+      ],
+      "I": [
+        "renforçais",
+        "renforçais",
+        "renforçait",
+        "renforcions",
+        "renforciez",
+        "renforçaient"
+      ],
+      "F": [
+        "renforcerai",
+        "renforceras",
+        "renforcera",
+        "renforcerons",
+        "renforcerez",
+        "renforceront"
+      ],
+      "C": [
+        "renforcerais",
+        "renforcerais",
+        "renforcerait",
+        "renforcerions",
+        "renforceriez",
+        "renforceraient"
+      ],
+      "S": [
+        "renforce",
+        "renforces",
+        "renforce",
+        "renforcions",
+        "renforciez",
+        "renforcent"
+      ],
+      "Y": [
+        "NA",
+        "renforce",
+        "NA",
+        "renforçons",
+        "renforcez",
+        "NA"
+      ],
+      "K": [
+        "renforcé",
+        "renforcés",
+        "renforcée",
+        "renforcées"
+      ]
+    }
+  },
+  {
+    "fr": "maintenir",
+    "es": "mantener / conservar en un estado",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "maintiens",
+        "maintiens",
+        "maintient",
+        "maintenons",
+        "maintenez",
+        "maintiennent"
+      ],
+      "I": [
+        "maintenais",
+        "maintenais",
+        "maintenait",
+        "maintenions",
+        "mainteniez",
+        "maintenaient"
+      ],
+      "F": [
+        "maintiendrai",
+        "maintiendras",
+        "maintiendra",
+        "maintiendrons",
+        "maintiendrez",
+        "maintiendront"
+      ],
+      "C": [
+        "maintiendrais",
+        "maintiendrais",
+        "maintiendrait",
+        "maintiendrions",
+        "maintiendriez",
+        "maintiendraient"
+      ],
+      "S": [
+        "maintienne",
+        "maintiennes",
+        "maintienne",
+        "maintenions",
+        "mainteniez",
+        "maintiennent"
+      ],
+      "Y": [
+        "NA",
+        "maintiens",
+        "NA",
+        "maintenons",
+        "maintenez",
+        "NA"
+      ],
+      "K": [
+        "maintenu",
+        "maintenus",
+        "maintenue",
+        "maintenues"
+      ]
+    }
+  },
+  {
+    "fr": "établir",
+    "es": "establecer",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "établis",
+        "établis",
+        "établit",
+        "établissons",
+        "établissez",
+        "établissent"
+      ],
+      "I": [
+        "établissais",
+        "établissais",
+        "établissait",
+        "établissions",
+        "établissiez",
+        "établissaient"
+      ],
+      "F": [
+        "établirai",
+        "établiras",
+        "établira",
+        "établirons",
+        "établirez",
+        "établiront"
+      ],
+      "C": [
+        "établirais",
+        "établirais",
+        "établirait",
+        "établirions",
+        "établiriez",
+        "établiraient"
+      ],
+      "S": [
+        "établisse",
+        "établisses",
+        "établisse",
+        "établissions",
+        "établissiez",
+        "établissent"
+      ],
+      "Y": [
+        "NA",
+        "établis",
+        "NA",
+        "établissons",
+        "établissez",
+        "NA"
+      ],
+      "K": [
+        "établi",
+        "établis",
+        "établie",
+        "établies"
+      ]
+    }
+  },
+  {
+    "fr": "fournir",
+    "es": "proporcionar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "fournis",
+        "fournis",
+        "fournit",
+        "fournissons",
+        "fournissez",
+        "fournissent"
+      ],
+      "I": [
+        "fournissais",
+        "fournissais",
+        "fournissait",
+        "fournissions",
+        "fournissiez",
+        "fournissaient"
+      ],
+      "F": [
+        "fournirai",
+        "fourniras",
+        "fournira",
+        "fournirons",
+        "fournirez",
+        "fourniront"
+      ],
+      "C": [
+        "fournirais",
+        "fournirais",
+        "fournirait",
+        "fournirions",
+        "fourniriez",
+        "fourniraient"
+      ],
+      "S": [
+        "fournisse",
+        "fournisses",
+        "fournisse",
+        "fournissions",
+        "fournissiez",
+        "fournissent"
+      ],
+      "Y": [
+        "NA",
+        "fournis",
+        "NA",
+        "fournissons",
+        "fournissez",
+        "NA"
+      ],
+      "K": [
+        "fourni",
+        "fournis",
+        "fournie",
+        "fournies"
+      ]
+    }
+  },
+  {
+    "fr": "acquérir",
+    "es": "adquirir",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "acquiers",
+        "acquiers",
+        "acquiert",
+        "acquérons",
+        "acquérez",
+        "acquièrent"
+      ],
+      "I": [
+        "acquérais",
+        "acquérais",
+        "acquérait",
+        "acquérions",
+        "acquériez",
+        "acquéraient"
+      ],
+      "F": [
+        "acquerrai",
+        "acquerras",
+        "acquerra",
+        "acquerrons",
+        "acquerrez",
+        "acquerront"
+      ],
+      "C": [
+        "acquerrais",
+        "acquerrais",
+        "acquerrait",
+        "acquerrions",
+        "acquerriez",
+        "acquerraient"
+      ],
+      "S": [
+        "acquière",
+        "acquières",
+        "acquière",
+        "acquérions",
+        "acquériez",
+        "acquièrent"
+      ],
+      "Y": [
+        "NA",
+        "acquiers",
+        "NA",
+        "acquérons",
+        "acquérez",
+        "NA"
+      ],
+      "K": [
+        "acquis",
+        "acquis",
+        "acquise",
+        "acquises"
+      ]
+    }
+  },
+  {
+    "fr": "investir",
+    "es": "invertir",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "investis",
+        "investis",
+        "investit",
+        "investissons",
+        "investissez",
+        "investissent"
+      ],
+      "I": [
+        "investissais",
+        "investissais",
+        "investissait",
+        "investissions",
+        "investissiez",
+        "investissaient"
+      ],
+      "F": [
+        "investirai",
+        "investiras",
+        "investira",
+        "investirons",
+        "investirez",
+        "investiront"
+      ],
+      "C": [
+        "investirais",
+        "investirais",
+        "investirait",
+        "investirions",
+        "investiriez",
+        "investiraient"
+      ],
+      "S": [
+        "investisse",
+        "investisses",
+        "investisse",
+        "investissions",
+        "investissiez",
+        "investissent"
+      ],
+      "Y": [
+        "NA",
+        "investis",
+        "NA",
+        "investissons",
+        "investissez",
+        "NA"
+      ],
+      "K": [
+        "investi",
+        "investis",
+        "investie",
+        "investies"
+      ]
+    }
+  },
+  {
+    "fr": "financer",
+    "es": "financiar",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "finance",
+        "finances",
+        "finance",
+        "finançons",
+        "financez",
+        "financent"
+      ],
+      "I": [
+        "finançais",
+        "finançais",
+        "finançait",
+        "financions",
+        "financiez",
+        "finançaient"
+      ],
+      "F": [
+        "financerai",
+        "financeras",
+        "financera",
+        "financerons",
+        "financerez",
+        "financeront"
+      ],
+      "C": [
+        "financerais",
+        "financerais",
+        "financerait",
+        "financerions",
+        "financeriez",
+        "financeraient"
+      ],
+      "S": [
+        "finance",
+        "finances",
+        "finance",
+        "financions",
+        "financiez",
+        "financent"
+      ],
+      "Y": [
+        "NA",
+        "finance",
+        "NA",
+        "finançons",
+        "financez",
+        "NA"
+      ],
+      "K": [
+        "financé",
+        "financés",
+        "financée",
+        "financées"
+      ]
+    }
+  },
+  {
+    "fr": "gérer",
+    "es": "gestionar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "gère",
+        "gères",
+        "gère",
+        "gérons",
+        "gérez",
+        "gèrent"
+      ],
+      "I": [
+        "gérais",
+        "gérais",
+        "gérait",
+        "gérions",
+        "gériez",
+        "géraient"
+      ],
+      "F": [
+        "gérerai",
+        "géreras",
+        "gérera",
+        "gérerons",
+        "gérerez",
+        "géreront"
+      ],
+      "C": [
+        "gérerais",
+        "gérerais",
+        "gérerait",
+        "gérerions",
+        "géreriez",
+        "géreraient"
+      ],
+      "S": [
+        "gère",
+        "gères",
+        "gère",
+        "gérions",
+        "gériez",
+        "gèrent"
+      ],
+      "Y": [
+        "NA",
+        "gère",
+        "NA",
+        "gérons",
+        "gérez",
+        "NA"
+      ],
+      "K": [
+        "géré",
+        "gérés",
+        "gérée",
+        "gérées"
+      ]
+    }
+  },
+  {
+    "fr": "embaucher",
+    "es": "contratar a un trabajador",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "embauche",
+        "embauches",
+        "embauche",
+        "embauchons",
+        "embauchez",
+        "embauchent"
+      ],
+      "I": [
+        "embauchais",
+        "embauchais",
+        "embauchait",
+        "embauchions",
+        "embauchiez",
+        "embauchaient"
+      ],
+      "F": [
+        "embaucherai",
+        "embaucheras",
+        "embauchera",
+        "embaucherons",
+        "embaucherez",
+        "embaucheront"
+      ],
+      "C": [
+        "embaucherais",
+        "embaucherais",
+        "embaucherait",
+        "embaucherions",
+        "embaucheriez",
+        "embaucheraient"
+      ],
+      "S": [
+        "embauche",
+        "embauches",
+        "embauche",
+        "embauchions",
+        "embauchiez",
+        "embauchent"
+      ],
+      "Y": [
+        "NA",
+        "embauche",
+        "NA",
+        "embauchons",
+        "embauchez",
+        "NA"
+      ],
+      "K": [
+        "embauché",
+        "embauchés",
+        "embauchée",
+        "embauchées"
+      ]
+    }
+  },
+  {
+    "fr": "licencier",
+    "es": "despedir a un trabajador",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "licencie",
+        "licencies",
+        "licencie",
+        "licencions",
+        "licenciez",
+        "licencient"
+      ],
+      "I": [
+        "licenciais",
+        "licenciais",
+        "licenciait",
+        "licenciions",
+        "licenciiez",
+        "licenciaient"
+      ],
+      "F": [
+        "licencierai",
+        "licencieras",
+        "licenciera",
+        "licencierons",
+        "licencierez",
+        "licencieront"
+      ],
+      "C": [
+        "licencierais",
+        "licencierais",
+        "licencierait",
+        "licencierions",
+        "licencieriez",
+        "licencieraient"
+      ],
+      "S": [
+        "licencie",
+        "licencies",
+        "licencie",
+        "licenciions",
+        "licenciiez",
+        "licencient"
+      ],
+      "Y": [
+        "NA",
+        "licencie",
+        "NA",
+        "licencions",
+        "licenciez",
+        "NA"
+      ],
+      "K": [
+        "licencié",
+        "licenciés",
+        "licenciée",
+        "licenciées"
+      ]
+    }
+  },
+  {
+    "fr": "démissionner",
+    "es": "dimitir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "démissionne",
+        "démissionnes",
+        "démissionne",
+        "démissionnons",
+        "démissionnez",
+        "démissionnent"
+      ],
+      "I": [
+        "démissionnais",
+        "démissionnais",
+        "démissionnait",
+        "démissionnions",
+        "démissionniez",
+        "démissionnaient"
+      ],
+      "F": [
+        "démissionnerai",
+        "démissionneras",
+        "démissionnera",
+        "démissionnerons",
+        "démissionnerez",
+        "démissionneront"
+      ],
+      "C": [
+        "démissionnerais",
+        "démissionnerais",
+        "démissionnerait",
+        "démissionnerions",
+        "démissionneriez",
+        "démissionneraient"
+      ],
+      "S": [
+        "démissionne",
+        "démissionnes",
+        "démissionne",
+        "démissionnions",
+        "démissionniez",
+        "démissionnent"
+      ],
+      "Y": [
+        "NA",
+        "démissionne",
+        "NA",
+        "démissionnons",
+        "démissionnez",
+        "NA"
+      ],
+      "K": [
+        "démissionné",
+        "démissionnés",
+        "démissionnée",
+        "démissionnées"
+      ]
+    }
+  },
+  {
+    "fr": "collaborer",
+    "es": "colaborar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "collabore",
+        "collabores",
+        "collabore",
+        "collaborons",
+        "collaborez",
+        "collaborent"
+      ],
+      "I": [
+        "collaborais",
+        "collaborais",
+        "collaborait",
+        "collaborions",
+        "collaboriez",
+        "collaboraient"
+      ],
+      "F": [
+        "collaborerai",
+        "collaboreras",
+        "collaborera",
+        "collaborerons",
+        "collaborerez",
+        "collaboreront"
+      ],
+      "C": [
+        "collaborerais",
+        "collaborerais",
+        "collaborerait",
+        "collaborerions",
+        "collaboreriez",
+        "collaboreraient"
+      ],
+      "S": [
+        "collabore",
+        "collabores",
+        "collabore",
+        "collaborions",
+        "collaboriez",
+        "collaborent"
+      ],
+      "Y": [
+        "NA",
+        "collabore",
+        "NA",
+        "collaborons",
+        "collaborez",
+        "NA"
+      ],
+      "K": [
+        "collaboré",
+        "collaborés",
+        "collaborée",
+        "collaborées"
+      ]
+    }
+  },
+  {
+    "fr": "entreprendre",
+    "es": "emprender",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "entreprends",
+        "entreprends",
+        "entreprend",
+        "entreprenons",
+        "entreprenez",
+        "entreprennent"
+      ],
+      "I": [
+        "entreprenais",
+        "entreprenais",
+        "entreprenait",
+        "entreprenions",
+        "entrepreniez",
+        "entreprenaient"
+      ],
+      "F": [
+        "entreprendrai",
+        "entreprendras",
+        "entreprendra",
+        "entreprendrons",
+        "entreprendrez",
+        "entreprendront"
+      ],
+      "C": [
+        "entreprendrais",
+        "entreprendrais",
+        "entreprendrait",
+        "entreprendrions",
+        "entreprendriez",
+        "entreprendraient"
+      ],
+      "S": [
+        "entreprenne",
+        "entreprennes",
+        "entreprenne",
+        "entreprenions",
+        "entrepreniez",
+        "entreprennent"
+      ],
+      "Y": [
+        "NA",
+        "entreprends",
+        "NA",
+        "entreprenons",
+        "entreprenez",
+        "NA"
+      ],
+      "K": [
+        "entrepris",
+        "entrepris",
+        "entreprise",
+        "entreprises"
+      ]
+    }
+  },
+  {
+    "fr": "réaliser",
+    "es": "realizar / llevar a cabo",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "réalise",
+        "réalises",
+        "réalise",
+        "réalisons",
+        "réalisez",
+        "réalisent"
+      ],
+      "I": [
+        "réalisais",
+        "réalisais",
+        "réalisait",
+        "réalisions",
+        "réalisiez",
+        "réalisaient"
+      ],
+      "F": [
+        "réaliserai",
+        "réaliseras",
+        "réalisera",
+        "réaliserons",
+        "réaliserez",
+        "réaliseront"
+      ],
+      "C": [
+        "réaliserais",
+        "réaliserais",
+        "réaliserait",
+        "réaliserions",
+        "réaliseriez",
+        "réaliseraient"
+      ],
+      "S": [
+        "réalise",
+        "réalises",
+        "réalise",
+        "réalisions",
+        "réalisiez",
+        "réalisent"
+      ],
+      "Y": [
+        "NA",
+        "réalise",
+        "NA",
+        "réalisons",
+        "réalisez",
+        "NA"
+      ],
+      "K": [
+        "réalisé",
+        "réalisés",
+        "réalisée",
+        "réalisées"
+      ]
+    }
+  },
+  {
+    "fr": "effectuer",
+    "es": "efectuar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "effectue",
+        "effectues",
+        "effectue",
+        "effectuons",
+        "effectuez",
+        "effectuent"
+      ],
+      "I": [
+        "effectuais",
+        "effectuais",
+        "effectuait",
+        "effectuions",
+        "effectuiez",
+        "effectuaient"
+      ],
+      "F": [
+        "effectuerai",
+        "effectueras",
+        "effectuera",
+        "effectuerons",
+        "effectuerez",
+        "effectueront"
+      ],
+      "C": [
+        "effectuerais",
+        "effectuerais",
+        "effectuerait",
+        "effectuerions",
+        "effectueriez",
+        "effectueraient"
+      ],
+      "S": [
+        "effectue",
+        "effectues",
+        "effectue",
+        "effectuions",
+        "effectuiez",
+        "effectuent"
+      ],
+      "Y": [
+        "NA",
+        "effectue",
+        "NA",
+        "effectuons",
+        "effectuez",
+        "NA"
+      ],
+      "K": [
+        "effectué",
+        "effectués",
+        "effectuée",
+        "effectuées"
+      ]
+    }
+  },
+  {
+    "fr": "accomplir",
+    "es": "cumplir / llevar a término",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "accomplis",
+        "accomplis",
+        "accomplit",
+        "accomplissons",
+        "accomplissez",
+        "accomplissent"
+      ],
+      "I": [
+        "accomplissais",
+        "accomplissais",
+        "accomplissait",
+        "accomplissions",
+        "accomplissiez",
+        "accomplissaient"
+      ],
+      "F": [
+        "accomplirai",
+        "accompliras",
+        "accomplira",
+        "accomplirons",
+        "accomplirez",
+        "accompliront"
+      ],
+      "C": [
+        "accomplirais",
+        "accomplirais",
+        "accomplirait",
+        "accomplirions",
+        "accompliriez",
+        "accompliraient"
+      ],
+      "S": [
+        "accomplisse",
+        "accomplisses",
+        "accomplisse",
+        "accomplissions",
+        "accomplissiez",
+        "accomplissent"
+      ],
+      "Y": [
+        "NA",
+        "accomplis",
+        "NA",
+        "accomplissons",
+        "accomplissez",
+        "NA"
+      ],
+      "K": [
+        "accompli",
+        "accomplis",
+        "accomplie",
+        "accomplies"
+      ]
+    }
+  },
+  {
+    "fr": "adapter",
+    "es": "adaptar",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "adapte",
+        "adaptes",
+        "adapte",
+        "adaptons",
+        "adaptez",
+        "adaptent"
+      ],
+      "I": [
+        "adaptais",
+        "adaptais",
+        "adaptait",
+        "adaptions",
+        "adaptiez",
+        "adaptaient"
+      ],
+      "F": [
+        "adapterai",
+        "adapteras",
+        "adaptera",
+        "adapterons",
+        "adapterez",
+        "adapteront"
+      ],
+      "C": [
+        "adapterais",
+        "adapterais",
+        "adapterait",
+        "adapterions",
+        "adapteriez",
+        "adapteraient"
+      ],
+      "S": [
+        "adapte",
+        "adaptes",
+        "adapte",
+        "adaptions",
+        "adaptiez",
+        "adaptent"
+      ],
+      "Y": [
+        "NA",
+        "adapte",
+        "NA",
+        "adaptons",
+        "adaptez",
+        "NA"
+      ],
+      "K": [
+        "adapté",
+        "adaptés",
+        "adaptée",
+        "adaptées"
+      ]
+    }
+  },
+  {
+    "fr": "bénéficier",
+    "es": "beneficiarse",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "bénéficie",
+        "bénéficies",
+        "bénéficie",
+        "bénéficions",
+        "bénéficiez",
+        "bénéficient"
+      ],
+      "I": [
+        "bénéficiais",
+        "bénéficiais",
+        "bénéficiait",
+        "bénéficiions",
+        "bénéficiiez",
+        "bénéficiaient"
+      ],
+      "F": [
+        "bénéficierai",
+        "bénéficieras",
+        "bénéficiera",
+        "bénéficierons",
+        "bénéficierez",
+        "bénéficieront"
+      ],
+      "C": [
+        "bénéficierais",
+        "bénéficierais",
+        "bénéficierait",
+        "bénéficierions",
+        "bénéficieriez",
+        "bénéficieraient"
+      ],
+      "S": [
+        "bénéficie",
+        "bénéficies",
+        "bénéficie",
+        "bénéficiions",
+        "bénéficiiez",
+        "bénéficient"
+      ],
+      "Y": [
+        "NA",
+        "bénéficie",
+        "NA",
+        "bénéficions",
+        "bénéficiez",
+        "NA"
+      ],
+      "K": [
+        "bénéficié",
+        "bénéficiés",
+        "bénéficiée",
+        "bénéficiées"
+      ]
+    }
+  },
+  {
+    "fr": "subir",
+    "es": "sufrir / verse sometido a",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "subis",
+        "subis",
+        "subit",
+        "subissons",
+        "subissez",
+        "subissent"
+      ],
+      "I": [
+        "subissais",
+        "subissais",
+        "subissait",
+        "subissions",
+        "subissiez",
+        "subissaient"
+      ],
+      "F": [
+        "subirai",
+        "subiras",
+        "subira",
+        "subirons",
+        "subirez",
+        "subiront"
+      ],
+      "C": [
+        "subirais",
+        "subirais",
+        "subirait",
+        "subirions",
+        "subiriez",
+        "subiraient"
+      ],
+      "S": [
+        "subisse",
+        "subisses",
+        "subisse",
+        "subissions",
+        "subissiez",
+        "subissent"
+      ],
+      "Y": [
+        "NA",
+        "subis",
+        "NA",
+        "subissons",
+        "subissez",
+        "NA"
+      ],
+      "K": [
+        "subi",
+        "subis",
+        "subie",
+        "subies"
+      ]
+    }
+  },
+  {
+    "fr": "surmonter",
+    "es": "superar un obstáculo",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "surmonte",
+        "surmontes",
+        "surmonte",
+        "surmontons",
+        "surmontez",
+        "surmontent"
+      ],
+      "I": [
+        "surmontais",
+        "surmontais",
+        "surmontait",
+        "surmontions",
+        "surmontiez",
+        "surmontaient"
+      ],
+      "F": [
+        "surmonterai",
+        "surmonteras",
+        "surmontera",
+        "surmonterons",
+        "surmonterez",
+        "surmonteront"
+      ],
+      "C": [
+        "surmonterais",
+        "surmonterais",
+        "surmonterait",
+        "surmonterions",
+        "surmonteriez",
+        "surmonteraient"
+      ],
+      "S": [
+        "surmonte",
+        "surmontes",
+        "surmonte",
+        "surmontions",
+        "surmontiez",
+        "surmontent"
+      ],
+      "Y": [
+        "NA",
+        "surmonte",
+        "NA",
+        "surmontons",
+        "surmontez",
+        "NA"
+      ],
+      "K": [
+        "surmonté",
+        "surmontés",
+        "surmontée",
+        "surmontées"
+      ]
+    }
+  },
+  {
+    "fr": "parvenir",
+    "es": "conseguir / llegar a",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "parviens",
+        "parviens",
+        "parvient",
+        "parvenons",
+        "parvenez",
+        "parviennent"
+      ],
+      "I": [
+        "parvenais",
+        "parvenais",
+        "parvenait",
+        "parvenions",
+        "parveniez",
+        "parvenaient"
+      ],
+      "F": [
+        "parviendrai",
+        "parviendras",
+        "parviendra",
+        "parviendrons",
+        "parviendrez",
+        "parviendront"
+      ],
+      "C": [
+        "parviendrais",
+        "parviendrais",
+        "parviendrait",
+        "parviendrions",
+        "parviendriez",
+        "parviendraient"
+      ],
+      "S": [
+        "parvienne",
+        "parviennes",
+        "parvienne",
+        "parvenions",
+        "parveniez",
+        "parviennent"
+      ],
+      "Y": [
+        "NA",
+        "parviens",
+        "NA",
+        "parvenons",
+        "parvenez",
+        "NA"
+      ],
+      "K": [
+        "parvenu",
+        "parvenus",
+        "parvenue",
+        "parvenues"
+      ]
+    }
+  },
+  {
+    "fr": "intervenir",
+    "es": "intervenir",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "interviens",
+        "interviens",
+        "intervient",
+        "intervenons",
+        "intervenez",
+        "interviennent"
+      ],
+      "I": [
+        "intervenais",
+        "intervenais",
+        "intervenait",
+        "intervenions",
+        "interveniez",
+        "intervenaient"
+      ],
+      "F": [
+        "interviendrai",
+        "interviendras",
+        "interviendra",
+        "interviendrons",
+        "interviendrez",
+        "interviendront"
+      ],
+      "C": [
+        "interviendrais",
+        "interviendrais",
+        "interviendrait",
+        "interviendrions",
+        "interviendriez",
+        "interviendraient"
+      ],
+      "S": [
+        "intervienne",
+        "interviennes",
+        "intervienne",
+        "intervenions",
+        "interveniez",
+        "interviennent"
+      ],
+      "Y": [
+        "NA",
+        "interviens",
+        "NA",
+        "intervenons",
+        "intervenez",
+        "NA"
+      ],
+      "K": [
+        "intervenu",
+        "intervenus",
+        "intervenue",
+        "intervenues"
+      ]
+    }
+  },
+  {
+    "fr": "conclure",
+    "es": "concluir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "conclus",
+        "conclus",
+        "conclut",
+        "concluons",
+        "concluez",
+        "concluent"
+      ],
+      "I": [
+        "concluais",
+        "concluais",
+        "concluait",
+        "concluions",
+        "concluiez",
+        "concluaient"
+      ],
+      "F": [
+        "conclurai",
+        "concluras",
+        "conclura",
+        "conclurons",
+        "conclurez",
+        "concluront"
+      ],
+      "C": [
+        "conclurais",
+        "conclurais",
+        "conclurait",
+        "conclurions",
+        "concluriez",
+        "concluraient"
+      ],
+      "S": [
+        "conclue",
+        "conclues",
+        "conclue",
+        "concluions",
+        "concluiez",
+        "concluent"
+      ],
+      "Y": [
+        "NA",
+        "conclus",
+        "NA",
+        "concluons",
+        "concluez",
+        "NA"
+      ],
+      "K": [
+        "conclu",
+        "conclus",
+        "conclue",
+        "conclues"
+      ]
+    }
+  },
+  {
+    "fr": "déduire",
+    "es": "deducir",
+    "core": false,
+    "level": "B2",
+    "forms": {
+      "P": [
+        "déduis",
+        "déduis",
+        "déduit",
+        "déduisons",
+        "déduisez",
+        "déduisent"
+      ],
+      "I": [
+        "déduisais",
+        "déduisais",
+        "déduisait",
+        "déduisions",
+        "déduisiez",
+        "déduisaient"
+      ],
+      "F": [
+        "déduirai",
+        "déduiras",
+        "déduira",
+        "déduirons",
+        "déduirez",
+        "déduiront"
+      ],
+      "C": [
+        "déduirais",
+        "déduirais",
+        "déduirait",
+        "déduirions",
+        "déduiriez",
+        "déduiraient"
+      ],
+      "S": [
+        "déduise",
+        "déduises",
+        "déduise",
+        "déduisions",
+        "déduisiez",
+        "déduisent"
+      ],
+      "Y": [
+        "NA",
+        "déduis",
+        "NA",
+        "déduisons",
+        "déduisez",
+        "NA"
+      ],
+      "K": [
+        "déduit",
+        "déduits",
+        "déduite",
+        "déduites"
+      ]
+    }
+  },
+  {
+    "fr": "transmettre",
+    "es": "transmitir",
+    "core": false,
+    "level": "B1",
+    "forms": {
+      "P": [
+        "transmets",
+        "transmets",
+        "transmet",
+        "transmettons",
+        "transmettez",
+        "transmettent"
+      ],
+      "I": [
+        "transmettais",
+        "transmettais",
+        "transmettait",
+        "transmettions",
+        "transmettiez",
+        "transmettaient"
+      ],
+      "F": [
+        "transmettrai",
+        "transmettras",
+        "transmettra",
+        "transmettrons",
+        "transmettrez",
+        "transmettront"
+      ],
+      "C": [
+        "transmettrais",
+        "transmettrais",
+        "transmettrait",
+        "transmettrions",
+        "transmettriez",
+        "transmettraient"
+      ],
+      "S": [
+        "transmette",
+        "transmettes",
+        "transmette",
+        "transmettions",
+        "transmettiez",
+        "transmettent"
+      ],
+      "Y": [
+        "NA",
+        "transmets",
+        "NA",
+        "transmettons",
+        "transmettez",
+        "NA"
+      ],
+      "K": [
+        "transmis",
+        "transmis",
+        "transmise",
+        "transmises"
       ]
     }
   }

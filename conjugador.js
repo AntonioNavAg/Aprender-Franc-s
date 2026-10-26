@@ -12,7 +12,7 @@
     S: ['Subjonctif présent · Subjuntivo', 'Se usa tras expresiones como il faut que: que je parle.'],
     Y: ['Impératif · Imperativo', 'Órdenes y consejos; normalmente sin pronombre: parle !']
   };
-  const etre = new Set(['aller','venir','arriver','partir','rester','tomber','naître','mourir','devenir','revenir']);
+  const etre = new Set(['aller','venir','arriver','partir','rester','tomber','naître','mourir','devenir','revenir','parvenir','intervenir']);
   const dual = new Set(['entrer','rentrer','sortir','retourner','monter','descendre','passer']);
   const weather = new Set(['falloir','pleuvoir','neiger']);
   const valid = form => typeof form === 'string' && form !== 'NA' && form.length > 0;

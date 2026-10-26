@@ -4,20 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#173f38">
-  <title>Atelier · Verbos franceses</title>
+  <title>Atelier · Francés de A1 a B2</title>
   <link rel="stylesheet" href="styles.css">
   <script defer src="verbos.js"></script>
+  <script defer src="vocabulario.js"></script>
   <script defer src="conjugador.js"></script>
   <script defer src="app.js"></script>
+  <script defer src="vocabulario-app.js"></script>
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="index.html">atelier<span>FR</span></a><span class="level">TU FRANCÉS, PASO A PASO · A2–B1</span></header>
+  <header class="topbar"><a class="brand" href="index.html">atelier<span>FR</span></a><span class="level">TU FRANCÉS, PASO A PASO · A1 → B2</span></header>
   <main>
-    <section class="intro"><div><p class="eyebrow">UN POCO CADA DÍA</p><h1>De entenderlo<br>a <em>decirlo.</em></h1><p>300 verbos para ganar soltura en francés.<br>Estudia, practica y vuelve a los que te cuestan.</p></div><div class="intro-note"><span class="big">Bonjour !</span><p>Una palabra nueva.<br>Una conversación más cerca.</p><span class="tag">Sin cuenta · Sin conexión</span></div></section>
-    <nav aria-label="Secciones" class="tabs"><button data-view="practice" class="active" aria-pressed="true">01 · Practicar</button><button data-view="catalog" aria-pressed="false">02 · Catálogo y conjugaciones</button></nav>
+    <section class="intro"><div><p class="eyebrow">UN POCO CADA DÍA</p><h1>De entenderlo<br>a <em>decirlo.</em></h1><p>350 verbos. 2.500 palabras. Un mundo de conversaciones.<br>Construye tu base y avanza, tema a tema.</p></div><div class="intro-note"><span class="big">Bonjour !</span><p>Una palabra nueva.<br>Una conversación más cerca.</p><span class="tag">Sin cuenta · Sin conexión</span></div></section>
+    <nav aria-label="Secciones" class="tabs"><button data-view="practice" class="active" aria-pressed="true">01 · Practicar verbos</button><button data-view="catalog" aria-pressed="false">02 · Conjugaciones</button><button data-view="vocabulary" aria-pressed="false">03 · Vocabulario por temas</button></nav>
     <section id="practice">
       <div class="section-head"><div><p class="eyebrow">TU SESIÓN</p><h2>¿Cómo practicamos hoy?</h2></div><p id="stats" aria-live="polite"></p></div>
-      <div class="controls"><label>Verbos de la sesión<select id="pool"><option value="core">100 esenciales</option><option value="all">Los 300 verbos</option><option value="favorites">Mis favoritos</option></select></label><label>Modo<select id="mode"><option value="cards">Flashcards</option><option value="quiz">Test de opciones</option><option value="write">Escribir en francés</option></select></label><label class="check"><input id="strict" type="checkbox" checked> Exigir acentos al escribir</label></div>
+      <div class="controls"><label>Verbos de la sesión<select id="pool"><option value="core">100 esenciales</option><option value="all">Los 350 verbos</option><option value="A1">A1 · Base</option><option value="A2">A2 · Vida cotidiana</option><option value="B1">B1 · Autonomía</option><option value="B2">B2 · Ampliación</option><option value="favorites">Mis favoritos</option></select></label><label>Modo<select id="mode"><option value="cards">Flashcards</option><option value="quiz">Test de opciones</option><option value="write">Escribir en francés</option></select></label><label class="check"><input id="strict" type="checkbox" checked> Exigir acentos al escribir</label></div>
       <div class="game" id="game">
         <div class="game-top"><span id="question-number" class="eyebrow"></span><button id="star" class="small" aria-label="Añadir a favoritos">☆ Favorito</button></div>
         <p class="prompt" id="prompt"></p><h3 id="question"></h3>
@@ -28,12 +30,43 @@
         <div class="game-bottom"><button id="listen" class="small" hidden>♫ Escuchar</button><button id="next" class="secondary" hidden>Siguiente →</button></div>
       </div>
       <p id="empty" class="empty" hidden>Añade favoritos con la estrella del catálogo para practicar con ellos.</p>
-      <p class="hint">Los juegos practican infinitivos del español al francés. La escritura acepta otros verbos del catálogo con la misma traducción.</p>
+      <p class="hint">Los juegos practican infinitivos del español al francés. Los niveles son orientativos. La escritura acepta otros verbos del catálogo con la misma traducción.</p>
     </section>
     <section id="catalog" hidden>
-      <div class="section-head"><div><p class="eyebrow">TU BIBLIOTECA</p><h2>Encuentra la palabra.</h2></div><span id="count"></span></div>
-      <div class="catalog-controls"><label class="search-label">Buscar en español o francés<input id="search" type="search" placeholder="Por ejemplo: aprender o apprendre"></label><label class="check"><input id="only-favorites" type="checkbox"> Solo favoritos</label></div>
+      <div class="section-head"><div><p class="eyebrow">350 VERBOS · DE LO COTIDIANO A LO ABSTRACTO</p><h2>Encuentra el verbo.</h2></div><span id="count"></span></div>
+      <div class="catalog-controls"><label class="search-label">Buscar en español o francés<input id="search" type="search" placeholder="Por ejemplo: aprender o apprendre"></label><label>Nivel orientativo<select id="verb-level"><option value="all">Todos los niveles</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option></select></label><label class="check"><input id="only-favorites" type="checkbox"> Solo favoritos</label></div>
       <div class="catalog-layout"><div id="verb-list" class="verb-list" aria-label="Lista de verbos"></div><aside id="detail" class="detail"><p class="eyebrow">CONJUGACIONES</p><h3 id="verb-title" lang="fr"></h3><p id="verb-meaning"></p><div class="actions"><button id="detail-star" class="small">☆ Favorito</button><button id="detail-listen" class="small">♫ Escuchar</button></div><label>Tiempo verbal<select id="tense"></select></label><label id="aux-label" hidden>Uso del verbo<select id="aux"><option value="être">Movimiento sin objeto · être</option><option value="avoir">Uso con objeto directo · avoir</option></select></label><p id="tense-help" class="tense-help"></p><table><caption class="sr-only">Conjugación del verbo seleccionado</caption><thead><tr><th>Persona</th><th>Forma francesa</th></tr></thead><tbody id="forms"></tbody></table><p id="verb-note" class="hint"></p></aside></div>
+    </section>
+    <section id="vocabulary" hidden>
+      <div class="section-head"><div><p class="eyebrow">2.500 ENTRADAS · 25 TEMAS</p><h2>Las palabras de tu mundo.</h2></div><p id="v-stats" aria-live="polite"></p></div>
+      <p class="v-intro">Sustantivos, adjetivos, adverbios, números y palabras para construir frases. Empieza por A1–A2 y amplía con B1–B2. Los niveles son orientativos; las formas femeninas no se cuentan como palabras adicionales.</p>
+      <div id="v-browser">
+        <details class="theme-overview" open><summary>Explorar los 25 temas</summary><div id="v-themes" class="theme-grid"></div></details>
+        <div class="v-filters">
+          <label>Tema<select id="v-theme"><option value="all">Todos los temas</option></select></label>
+          <label>Nivel orientativo<select id="v-level"><option value="all">Todos los niveles</option><option value="A1">A1 · Base</option><option value="A2">A2 · Vida cotidiana</option><option value="B1">B1 · Autonomía</option><option value="B2">B2 · Ampliación</option></select></label>
+          <label>Tipo de palabra<select id="v-type"><option value="all">Todos los tipos</option><option value="noun">Sustantivos</option><option value="adjective">Adjetivos</option><option value="adverb">Adverbios</option><option value="expression">Expresiones</option><option value="numeral">Números</option><option value="pronoun">Pronombres</option><option value="conjunction">Conjunciones</option><option value="preposition">Preposiciones</option></select></label>
+          <label>Buscar<input id="v-search" type="search" placeholder="Francés o español"></label>
+        </div>
+        <div class="v-toolbar"><label class="check"><input id="v-favorites" type="checkbox"> Solo favoritos</label><label class="check"><input id="v-pending" type="checkbox"> Solo por aprender</label><button id="v-clear" class="small">Limpiar filtros</button></div>
+        <div class="v-results-head"><p id="v-count" role="status"></p><button id="v-start" class="primary">Practicar esta selección</button></div>
+        <div id="v-list" class="word-grid"></div>
+        <div class="pagination"><button id="v-prev-page" class="small">← Anterior</button><span id="v-page" aria-live="polite"></span><button id="v-next-page" class="small">Siguiente →</button></div>
+      </div>
+      <div id="v-study" hidden>
+        <div class="v-study-controls"><button id="v-back" class="small">← Volver al vocabulario</button><label>Modo<select id="v-mode"><option value="cards">Flashcards</option><option value="quiz">Test de opciones</option><option value="write">Escribir en francés</option></select></label><label class="check"><input id="v-strict" type="checkbox" checked> Exigir acentos</label></div>
+        <div class="game">
+          <div class="game-top"><span id="v-position" class="eyebrow"></span><button id="v-star" class="small">☆ Favorito</button></div>
+          <p id="v-context" class="prompt"></p><h3 id="v-question"></h3>
+          <div id="v-cards"><button id="v-reveal" class="primary">Ver respuesta</button><div id="v-revealed" hidden><p id="v-answer" class="answer" lang="fr"></p><p id="v-grammar" class="hint"></p><div class="actions"><button id="v-known" class="primary">Lo sabía</button><button id="v-again" class="secondary">Repasar</button></div></div></div>
+          <div id="v-choices" class="options" hidden></div>
+          <form id="v-write" hidden><label for="v-input">Palabra en francés, sin artículo</label><div class="write-line"><input id="v-input" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="v-feedback" placeholder="Escribe aquí…"><button id="v-check" class="primary" type="submit">Comprobar</button></div><div id="v-accents" class="accents" aria-label="Insertar letra con acento"></div></form>
+          <p id="v-feedback" class="v-feedback" role="status" aria-live="polite"></p>
+          <div class="game-bottom"><button id="v-listen" class="small" hidden>♫ Escuchar</button><button id="v-next" class="secondary" hidden>Siguiente →</button></div>
+        </div>
+        <p class="hint">En escritura se aceptan masculino y femenino del adjetivo. Los aciertos marcan la entrada como aprendida; un fallo la devuelve a «por aprender». Puedes cambiar esa marca en el catálogo.</p>
+      </div>
+      <p id="v-save-note" class="hint">Favoritos y aprendizaje de palabras se guardan por separado del progreso de verbos.</p>
     </section>
     <footer><span>atelier · Un pequeño hábito, un gran idioma.</span><span id="storage-note">Favoritos y progreso guardados en este navegador.</span></footer>
   </main>

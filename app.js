@@ -27,7 +27,8 @@
     return copy;
   }
   function pool() {
-    return verbs.filter(v => $('pool').value === 'all' || ($('pool').value === 'core' ? v.core : favorites.has(v.fr)));
+    const choice=$('pool').value;
+    return verbs.filter(v => choice==='all' || (choice==='core' ? v.core : choice==='favorites' ? favorites.has(v.fr) : v.level===choice));
   }
   function start() { deck=shuffle(pool()); deckIndex=0; round=1; nextQuestion(); }
   function nextQuestion() {
@@ -99,15 +100,15 @@
   }
   function renderCatalog() {
     const search=normalize($('search').value);
-    const filtered=verbs.filter(v=>(!$('only-favorites').checked || favorites.has(v.fr)) && normalize(`${v.fr} ${v.es}`).includes(search)).sort((a,b)=>a.fr.localeCompare(b.fr,'fr'));
-    $('count').textContent=`${filtered.length} / 300 verbos`;
+    const filtered=verbs.filter(v=>(!$('only-favorites').checked || favorites.has(v.fr)) && ($('verb-level').value==='all' || v.level===$('verb-level').value) && normalize(`${v.fr} ${v.es}`).includes(search)).sort((a,b)=>a.fr.localeCompare(b.fr,'fr'));
+    $('count').textContent=`${filtered.length} / ${verbs.length} verbos`;
     $('verb-list').replaceChildren();
     if(!filtered.length) { const p=document.createElement('p');p.className='empty';p.textContent='No hay resultados. Prueba otra búsqueda.';$('verb-list').append(p); }
     for(const verb of filtered) {
       const row=document.createElement('div');row.className='verb-row'+(selected.fr===verb.fr?' active':'');
       const open=document.createElement('button');open.className='verb-open';
       const name=document.createElement('strong');name.textContent=verb.fr;name.lang='fr';
-      const meaning=document.createElement('span');meaning.textContent=verb.es;
+      const meaning=document.createElement('span');meaning.textContent=`${verb.level} · ${verb.es}`;
       open.append(name,meaning);open.setAttribute('aria-pressed',String(selected.fr===verb.fr));
       open.addEventListener('click',()=>{selected=verb;$('aux').value='être';renderDetail();renderCatalog();});
       const star=document.createElement('button');star.className='small';renderStar(star,verb);star.textContent=favorites.has(verb.fr)?'★':'☆';
@@ -115,7 +116,7 @@
     }
   }
   function renderDetail() {
-    $('verb-title').textContent=selected.fr;$('verb-meaning').textContent=selected.es;renderStar($('detail-star'),selected);
+    $('verb-title').textContent=selected.fr;$('verb-meaning').textContent=`${selected.level} · ${selected.es}`;renderStar($('detail-star'),selected);
     const tense=$('tense').value;
     $('tense-help').textContent=Conjugador.tenses[tense][1];
     $('aux-label').hidden=!Conjugador.dual.has(selected.fr) || !['PC','PQ'].includes(tense);
@@ -143,7 +144,7 @@
     $('verb-note').textContent=note;
   }
   document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{
-    const practice=button.dataset.view==='practice';$('practice').hidden=!practice;$('catalog').hidden=practice;
+    for(const id of ['practice','catalog','vocabulary']) $(id).hidden=id!==button.dataset.view;
     document.querySelectorAll('[data-view]').forEach(tab=>{const active=tab===button;tab.classList.toggle('active',active);tab.setAttribute('aria-pressed',String(active));});
   }));
   $('mode').addEventListener('change',start);$('pool').addEventListener('change',start);
@@ -166,7 +167,7 @@
     const button=document.createElement('button');button.type='button';button.textContent=char;button.setAttribute('aria-label',`Insertar ${char}`);
     button.addEventListener('click',()=>{const input=$('written');if(input.disabled)return;const start=input.selectionStart,end=input.selectionEnd;input.setRangeText(char,start,end,'end');input.focus();});$('accents').append(button);
   }
-  $('search').addEventListener('input',renderCatalog);$('only-favorites').addEventListener('change',renderCatalog);
+  $('verb-level').addEventListener('change',renderCatalog);$('search').addEventListener('input',renderCatalog);$('only-favorites').addEventListener('change',renderCatalog);
   $('detail-star').addEventListener('click',()=>toggleFavorite(selected));$('detail-listen').addEventListener('click',()=>speak(selected.fr));
   for(const [value,[label]] of Object.entries(Conjugador.tenses)){const option=document.createElement('option');option.value=value;option.textContent=label;$('tense').append(option);}
   $('tense').addEventListener('change',renderDetail);$('aux').addEventListener('change',renderDetail);
