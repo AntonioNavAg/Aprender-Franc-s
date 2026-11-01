@@ -9,14 +9,18 @@
   <script defer src="verbos.js"></script>
   <script defer src="vocabulario.js"></script>
   <script defer src="conjugador.js"></script>
+  <script defer src="apprentissage.js"></script>
+  <script defer src="contexto-datos.js"></script>
+  <script defer src="contexto-motor.js"></script>
   <script defer src="app.js"></script>
   <script defer src="vocabulario-app.js"></script>
+  <script defer src="contexto-app.js"></script>
 </head>
 <body>
   <header class="topbar"><a class="brand" href="index.html">atelier<span>FR</span></a><span class="level">TU FRANCÉS, PASO A PASO · A1 → B2</span></header>
   <main>
     <section class="intro"><div><p class="eyebrow">UN POCO CADA DÍA</p><h1>De entenderlo<br>a <em>decirlo.</em></h1><p>350 verbos. 2.500 palabras. Un mundo de conversaciones.<br>Construye tu base y avanza, tema a tema.</p></div><div class="intro-note"><span class="big">Bonjour !</span><p>Una palabra nueva.<br>Una conversación más cerca.</p><span class="tag">Sin cuenta · Sin conexión</span></div></section>
-    <nav aria-label="Secciones" class="tabs"><button data-view="practice" class="active" aria-pressed="true">01 · Practicar verbos</button><button data-view="catalog" aria-pressed="false">02 · Conjugaciones</button><button data-view="vocabulary" aria-pressed="false">03 · Vocabulario por temas</button></nav>
+    <nav aria-label="Secciones" class="tabs"><button data-view="practice" class="active" aria-pressed="true">01 · Practicar verbos</button><button data-view="catalog" aria-pressed="false">02 · Conjugaciones</button><button data-view="vocabulary" aria-pressed="false">03 · Vocabulario por temas</button><button data-view="context" aria-pressed="false">04 · Practicar en contexto</button></nav>
     <section id="practice">
       <div class="section-head"><div><p class="eyebrow">TU SESIÓN</p><h2>¿Cómo practicamos hoy?</h2></div><p id="stats" aria-live="polite"></p></div>
       <div class="controls"><label>Verbos de la sesión<select id="pool"><option value="core">100 esenciales</option><option value="all">Los 350 verbos</option><option value="A1">A1 · Base</option><option value="A2">A2 · Vida cotidiana</option><option value="B1">B1 · Autonomía</option><option value="B2">B2 · Ampliación</option><option value="favorites">Mis favoritos</option></select></label><label>Modo<select id="mode"><option value="cards">Flashcards</option><option value="quiz">Test de opciones</option><option value="write">Escribir en francés</option></select></label><label class="check"><input id="strict" type="checkbox" checked> Exigir acentos al escribir</label></div>
@@ -68,6 +72,43 @@
       </div>
       <p id="v-save-note" class="hint">Favoritos y aprendizaje de palabras se guardan por separado del progreso de verbos.</p>
     </section>
+    <section id="context" hidden>
+      <div class="section-head"><div><p class="eyebrow">DEL VOCABULARIO A LA FRASE</p><h2>Practicar en contexto.</h2></div><span class="tag">48 estructuras · A1–A2</span></div>
+      <p class="v-intro">Elige qué quieres practicar o pide una sesión recomendada dentro de tus filtros. Las frases combinan sujetos, tiempos y complementos revisados. Esta primera colección trabaja con una parte del diccionario.</p>
+      <div id="c-settings">
+        <div class="v-filters">
+          <label>Cómo elegir ejercicios<select id="c-plan"><option value="manual">Yo elijo</option><option value="recommended">Recomiéndame una sesión</option></select></label>
+          <label>Contenido<select id="c-source"><option value="all">Todo lo compatible</option><option value="favorites">Mis favoritos</option><option value="learned">Aprendidas o practicadas</option><option value="pending">Pendientes</option><option value="manual">Selección manual</option></select></label>
+          <label>Gramática<select id="c-grammar"><option value="all">Mezcla de estructuras</option><option value="verbs">Conjugar verbos</option><option value="vocab">Elegir vocabulario</option><option value="articles">Artículos</option><option value="agreement">Concordancia de adjetivos</option></select></label>
+          <label>Formato<select id="c-format"><option value="all">Mezcla de ejercicios</option><option value="fill">Completar escribiendo</option><option value="quiz">Elegir una opción</option><option value="order">Ordenar grupos</option></select></label>
+          <label>Tiempo de los ejercicios verbales<select id="c-tense"><option value="all">Todos los disponibles</option><option value="P">Presente</option><option value="PC">Passé composé</option><option value="FP">Futuro próximo</option><option value="I">Imperfecto</option></select></label>
+          <label>Nivel de la estructura<select id="c-level"><option value="all">A1 y A2</option><option value="A1">A1</option><option value="A2">A2</option></select></label>
+          <label>Duración<select id="c-length"><option value="5">5 ejercicios</option><option value="10" selected>10 ejercicios</option><option value="20">20 ejercicios</option><option value="free">Práctica libre</option></select></label>
+        </div>
+        <fieldset class="c-themes"><legend>Temas · sin marcar ninguno se incluyen todos</legend><div id="c-themes" class="c-theme-checks"></div></fieldset>
+        <div class="v-toolbar"><label class="check"><input id="c-hints" type="checkbox" checked> Mostrar pista en francés</label><label class="check"><input id="c-spanish" type="checkbox" checked> Mostrar sentido en español</label><label class="check"><input id="c-strict" type="checkbox" checked> Exigir acentos</label></div>
+        <details id="c-selection" hidden><summary>Elegir palabras y verbos</summary><label>Buscar dentro de los elementos compatibles<input id="c-search" type="search" placeholder="Francés o español"></label><div class="v-toolbar"><button id="c-pick-visible" class="small">Marcar resultados visibles</button><button id="c-unpick" class="small">Vaciar selección</button><span id="c-picked"></span></div><div id="c-items" class="c-items"></div></details>
+        <div class="v-results-head"><p id="c-coverage" role="status"></p><button id="c-start" class="primary">Comenzar sesión →</button></div>
+        <p class="hint">El filtro de contenido se aplica al elemento que vas a responder; la frase puede contener otras palabras de apoyo. Si no hay coincidencias, amplía tus filtros. La recomendación prioriza errores y elementos sin comprobar; nunca elimina tus restricciones.</p>
+      </div>
+      <div id="c-session" hidden>
+        <div class="v-study-controls"><button id="c-exit" class="small">← Terminar y volver a elegir</button><span id="c-counter"></span></div>
+        <div class="game">
+          <div class="game-top"><span id="c-kind" class="eyebrow"></span><span id="c-skill" class="small"></span></div>
+          <p id="c-instruction" class="prompt"></p><h3 id="c-sentence" lang="fr"></h3>
+          <p id="c-translation" class="hint"></p><p id="c-hint" class="hint"></p>
+          <form id="c-write"><label for="c-input">Tu respuesta</label><div class="write-line"><input id="c-input" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="c-feedback"><button id="c-check" class="primary" type="submit">Comprobar</button></div><div id="c-accents" class="accents" aria-label="Insertar letra con acento"></div></form>
+          <div id="c-options" class="options" hidden></div>
+          <div id="c-order" hidden><p class="hint">Pulsa los grupos en orden. Pulsa un grupo colocado para devolverlo.</p><div id="c-assembled" class="c-tokens" aria-label="Tu frase"></div><div id="c-bank" class="c-tokens" aria-label="Grupos disponibles"></div><div class="actions"><button id="c-order-check" class="primary">Comprobar orden</button><button id="c-order-reset" class="small">Empezar de nuevo</button></div></div>
+          <p id="c-feedback" class="v-feedback" role="status" aria-live="polite"></p><p id="c-solution" class="answer" lang="fr" hidden></p><p id="c-rule" class="hint" hidden></p>
+          <div class="game-bottom"><button id="c-reveal" class="small">Mostrar solución y repasar</button><button id="c-audio" class="small" hidden>♫ Escuchar frase</button><button id="c-next" class="secondary" hidden>Siguiente →</button></div>
+        </div>
+      </div>
+      <div id="c-summary" class="empty" hidden><h3>Sesión terminada</h3><p id="c-result"></p><button id="c-return" class="primary">Elegir otra sesión</button></div>
+      <details class="c-progress"><summary>Qué has comprobado</summary><p class="hint">Reconocida: acierto en un test. Recordada: escrita sin opciones. Utilizada: resuelta dentro de una frase. Consolidada: escrita correctamente en contexto, sin pista francesa, en tres días distintos desde el último fallo en contexto. Los artículos, las opciones y ordenar son práctica guiada: no consolidan por sí solos. Las flashcards y marcas manuales siguen siendo autoevaluaciones; no se convierten automáticamente en dominio.</p><div id="c-progress" class="c-progress-list"></div></details>
+      <p id="c-storage" class="hint">Progreso guardado en este navegador. Los niveles y estados son orientativos.</p>
+    </section>
+
     <footer><span>atelier · Un pequeño hábito, un gran idioma.</span><span id="storage-note">Favoritos y progreso guardados en este navegador.</span></footer>
   </main>
 </body>

@@ -67,7 +67,7 @@
     if(!filtered.length){const p=document.createElement('p');p.className='empty';p.textContent='No hay palabras con estos filtros. Prueba otro tema o limpia los filtros.';$('v-list').append(p);}
     for(const word of filtered.slice(page*pageSize,(page+1)*pageSize)){
       const article=document.createElement('article');article.className='word-card';
-      const meta=document.createElement('p');meta.className='word-meta';meta.textContent=description(word);
+      const meta=document.createElement('p');meta.className='word-meta';meta.textContent=description(word);const evidence=window.Apprentissage?.status('word:'+word.id);if(evidence&&evidence!=='Sin comprobar')meta.textContent+=' · '+evidence;
       const title=document.createElement('h3');title.lang='fr';title.textContent=display(word);
       const translation=document.createElement('p');translation.className='word-translation';translation.textContent=word.es;
       const theme=document.createElement('p');theme.className='word-theme';theme.textContent=word.theme;
@@ -124,7 +124,7 @@
   }
   function finish(ok,extra=''){
     if(answered||!current)return;
-    answered=true;attempts++;
+    answered=true;if($('v-mode').value!=='cards')window.Apprentissage?.record('word:'+current.id,$('v-mode').value==='write'?'recalled':'recognized',ok);attempts++;
     if(ok){correct++;sessionCorrect++;learned.add(current.id);}else learned.delete(current.id);
     persist();$('v-feedback').className=`v-feedback ${ok?'good':'bad'}`;
     $('v-feedback').textContent=(ok?'¡Bien hecho! ': 'Para repasar: ')+display(current)+'.'+(extra?' '+extra:'');
@@ -178,5 +178,6 @@
   for(const char of ['é','è','ê','ë','à','â','î','ï','ô','ù','û','ç','œ']){
     const accent=button(char,()=>{const input=$('v-input');if(input.disabled)return;input.setRangeText(char,input.selectionStart,input.selectionEnd,'end');input.focus();});accent.setAttribute('aria-label',`Insertar ${char}`);$('v-accents').append(accent);
   }
+  document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{if(button.dataset.view==='vocabulary')applyFilters(false);}));
   persist();applyFilters();
 })();

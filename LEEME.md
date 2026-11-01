@@ -1,6 +1,8 @@
 # Atelier · Francés de A1 a B2
 
-Versión ampliada: **350 verbos y 2.500 entradas de vocabulario**, distribuidas en **25 temas**. Funciona localmente, sin cuenta, backend ni conexión a Internet. La voz francesa depende de las voces instaladas en tu navegador o sistema.
+Versión con ejercicios en contexto: **350 verbos y 2.500 entradas de vocabulario**, distribuidas en **25 temas**. Funciona localmente, sin cuenta, backend ni conexión a Internet. La voz francesa depende de las voces instaladas en tu navegador o sistema.
+
+La pestaña **04 · Practicar en contexto** añade completar, elegir y ordenar frases con filtros de contenido, ayudas, recomendación y comprobación del aprendizaje. Consulta `CONTEXTO.md` para el alcance de las 48 estructuras iniciales.
 
 ## Abrir en Visual Studio Code
 
@@ -12,7 +14,7 @@ No hay que instalar paquetes ni ejecutar comandos. Todos los archivos deben perm
 
 ## Actualizar tu versión anterior
 
-Copia los archivos de esta carpeta sobre los de tu carpeta anterior. Es necesario copiar también los nuevos `vocabulario.js` y `vocabulario-app.js`. Guarda y recarga la página.
+Copia los archivos de esta carpeta sobre los de tu carpeta anterior. Copia todos los archivos del ZIP, incluidos `contexto-datos.js`, `contexto-motor.js`, `contexto-app.js` y `apprentissage.js`. Guarda y recarga la página.
 
 Los favoritos y el progreso de verbos conservan su formato de guardado anterior. Permanecen disponibles si utilizas el mismo navegador y la misma dirección o ubicación de apertura. Cambiar de carpeta, de puerto de Live Server o de abrir un archivo directamente a usar Live Server puede cambiar el almacenamiento que utiliza el navegador. El progreso de vocabulario se guarda por separado.
 
@@ -27,6 +29,11 @@ frances-verbos/
 ├── app.js              # Juegos y catálogo de verbos
 ├── vocabulario.js      # 2.500 entradas con traducción y gramática
 ├── vocabulario-app.js  # Temas, filtros, aprendizaje y juegos de palabras
+├── contexto-datos.js    # Estructuras y combinaciones admitidas
+├── contexto-motor.js    # Generador de ejercicios
+├── contexto-app.js      # Interfaz de práctica en contexto
+├── apprentissage.js     # Evidencia de aprendizaje
+├── CONTEXTO.md          # Guía de los nuevos ejercicios
 ├── LEEME.md            # Estas instrucciones
 ├── FUENTES.md          # Procedencia de datos, alcance y licencias
 └── LICENCIA-LEFFF.txt   # Licencia de los datos de conjugación

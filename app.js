@@ -72,7 +72,7 @@
   }
   function finish(correct, suffix='') {
     if(answered) return;
-    answered=true; stats.attempts++; if(correct) stats.correct++; persist();
+    answered=true; if($('mode').value!=='cards')window.Apprentissage?.record('verb:'+current.fr,$('mode').value==='write'?'recalled':'recognized',correct); stats.attempts++; if(correct) stats.correct++; persist();
     $('feedback').className=correct?'good':'bad';
     $('feedback').textContent=(correct ? '¡Bien hecho!' : `Para repasar: ${current.fr}.`) + (suffix ? ` ${suffix}` : '');
     $('next').hidden=false; $('listen').hidden=false;
@@ -108,7 +108,7 @@
       const row=document.createElement('div');row.className='verb-row'+(selected.fr===verb.fr?' active':'');
       const open=document.createElement('button');open.className='verb-open';
       const name=document.createElement('strong');name.textContent=verb.fr;name.lang='fr';
-      const meaning=document.createElement('span');meaning.textContent=`${verb.level} · ${verb.es}`;
+      const meaning=document.createElement('span');meaning.textContent=`${verb.level} · ${verb.es}`;const evidence=window.Apprentissage?.status('verb:'+verb.fr);if(evidence&&evidence!=='Sin comprobar')meaning.textContent+=' · '+evidence;
       open.append(name,meaning);open.setAttribute('aria-pressed',String(selected.fr===verb.fr));
       open.addEventListener('click',()=>{selected=verb;$('aux').value='être';renderDetail();renderCatalog();});
       const star=document.createElement('button');star.className='small';renderStar(star,verb);star.textContent=favorites.has(verb.fr)?'★':'☆';
@@ -144,7 +144,8 @@
     $('verb-note').textContent=note;
   }
   document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{
-    for(const id of ['practice','catalog','vocabulary']) $(id).hidden=id!==button.dataset.view;
+    for(const id of ['practice','catalog','vocabulary','context']) $(id).hidden=id!==button.dataset.view;
+    if(button.dataset.view==='catalog')renderCatalog();
     document.querySelectorAll('[data-view]').forEach(tab=>{const active=tab===button;tab.classList.toggle('active',active);tab.setAttribute('aria-pressed',String(active));});
   }));
   $('mode').addEventListener('change',start);$('pool').addEventListener('change',start);

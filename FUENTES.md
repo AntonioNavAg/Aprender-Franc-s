@@ -18,3 +18,7 @@ El código original de interfaz (`index.html`, `styles.css`, `conjugador.js`, `a
 Los 50 verbos nuevos utilizan el mismo recurso Lefff, con 350 entradas seleccionadas en total. Los niveles de verbos y vocabulario son etiquetas editoriales orientativas, no una lista oficial del MCER.
 
 La selección de 2.500 entradas en `vocabulario.js`, sus traducciones españolas, géneros, variantes y notas se han redactado para este proyecto. Incluye lemas y unidades léxicas de uso cotidiano y de ampliación; no se ha copiado ni traducido automáticamente una lista externa. No constituye un diccionario exhaustivo ni una revisión lingüística profesional. Se aplica a este contenido original y a `vocabulario-app.js` la misma licencia MIT descrita arriba. La licencia LGPL-LR sigue aplicándose a las formas francesas de Lefff.
+
+## Ejercicios en contexto
+
+Las 48 estructuras y sus complementos de `contexto-datos.js` se han redactado para el proyecto. Las formas verbales se obtienen del mismo recurso Lefff, sin una API externa. `contexto-motor.js`, `contexto-app.js` y `apprentissage.js` son código original bajo la licencia MIT indicada arriba. El generador cubre una selección explícita del diccionario y no promete validar respuestas abiertas ni todas las combinaciones del francés.
