@@ -26,3 +26,7 @@ Las 48 estructuras y sus complementos de `contexto-datos.js` se han redactado pa
 ## Contrarios e interrogativos
 
 Las parejas, explicaciones y 50 preguntas de `retos-datos.js` se han redactado para este proyecto. El contenido original y `retos-app.js` se distribuyen bajo la misma licencia MIT indicada arriba. Las parejas enseñan contrastes en el contexto señalado; no constituyen una lista exhaustiva de todos los antónimos posibles.
+
+## Guía de gramática
+
+Las 48 fichas, sus ejemplos y 96 ejercicios de `gramatica-datos.js` se han redactado para el proyecto. Ese contenido y `gramatica-app.js` se distribuyen bajo la misma licencia MIT indicada arriba. Los niveles son orientativos; la guía no pretende cubrir todas las excepciones ni ser una gramática exhaustiva.

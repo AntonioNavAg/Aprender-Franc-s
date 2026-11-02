@@ -6,6 +6,8 @@ La pestaña **04 · Practicar en contexto** añade completar, elegir y ordenar f
 
 La pestaña **05 · Contrarios y preguntas** incorpora 100 parejas de contrarios y contrastes, una guía de 16 grupos interrogativos y 50 preguntas para completar. Consulta `CONTRARIOS-Y-PREGUNTAS.md`.
 
+La pestaña **06 · Gramática** añade 48 fichas explicadas y 96 ejercicios, con búsqueda, filtros y práctica de una regla concreta. Consulta `GRAMATICA.md`.
+
 ## Menú de idiomas
 
 Al abrir la página aparece el selector de idiomas con banderas circulares. Francés está disponible; inglés, español, alemán, italiano y japonés aparecen bloqueados con «Próximamente». Pulsa «Cambiar idioma» o el logotipo para regresar al selector sin reiniciar la sesión. Cada nueva apertura muestra el selector. Las banderas son SVG locales y funcionan sin conexión.
@@ -46,6 +48,9 @@ frances-verbos/
 ├── retos-datos.js       # Contrarios, interrogativos y preguntas
 ├── retos-app.js         # Juegos de contrarios e interrogativos
 ├── CONTRARIOS-Y-PREGUNTAS.md # Guía de la nueva sección
+├── gramatica-datos.js   # Reglas, ejemplos y ejercicios
+├── gramatica-app.js     # Guía y práctica de gramática
+├── GRAMATICA.md         # Instrucciones de gramática
 ├── LEEME.md            # Estas instrucciones
 ├── FUENTES.md          # Procedencia de datos, alcance y licencias
 └── LICENCIA-LEFFF.txt   # Licencia de los datos de conjugación

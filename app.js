@@ -144,7 +144,7 @@
     $('verb-note').textContent=note;
   }
   document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{
-    for(const id of ['practice','catalog','vocabulary','context','relations']) $(id).hidden=id!==button.dataset.view;
+    for(const id of ['practice','catalog','vocabulary','context','relations','grammar']) $(id).hidden=id!==button.dataset.view;
     if(button.dataset.view==='catalog')renderCatalog();
     document.querySelectorAll('[data-view]').forEach(tab=>{const active=tab===button;tab.classList.toggle('active',active);tab.setAttribute('aria-pressed',String(active));});
   }));

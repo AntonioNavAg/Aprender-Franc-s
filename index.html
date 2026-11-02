@@ -17,6 +17,8 @@
   <script defer src="contexto-app.js"></script>
   <script defer src="retos-datos.js"></script>
   <script defer src="retos-app.js"></script>
+  <script defer src="gramatica-datos.js"></script>
+  <script defer src="gramatica-app.js"></script>
   <script defer src="idiomas.js"></script>
 </head>
 <body>
@@ -29,7 +31,7 @@
 <button type="button" class="language-card locked" disabled aria-disabled="true" aria-label="Japonés: bloqueado, próximamente"><span class="language-flag"><svg viewBox="0 0 90 60" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="90" height="60" fill="#fff"/><circle cx="45" cy="30" r="16" fill="#c5334a"/></svg></span><strong>Japonés</strong><span class="language-native" lang="ja">日本語</span><span class="language-status"><svg class="language-lock" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Próximamente</span></button></div><p class="language-footnote">Francés ya disponible · Más idiomas próximamente</p><noscript><p>Activa JavaScript en tu navegador para entrar en los ejercicios.</p></noscript></main>
   <main id="french-app" hidden>
     <section class="intro"><div><p class="eyebrow">UN POCO CADA DÍA</p><h1>De entenderlo<br>a <em>decirlo.</em></h1><p>350 verbos. 2.500 palabras. Un mundo de conversaciones.<br>Construye tu base y avanza, tema a tema.</p></div><div class="intro-note"><span class="big">Bonjour !</span><p>Una palabra nueva.<br>Una conversación más cerca.</p><span class="tag">Sin cuenta · Sin conexión</span></div></section>
-    <nav aria-label="Secciones" class="tabs"><button data-view="practice" class="active" aria-pressed="true">01 · Practicar verbos</button><button data-view="catalog" aria-pressed="false">02 · Conjugaciones</button><button data-view="vocabulary" aria-pressed="false">03 · Vocabulario por temas</button><button data-view="context" aria-pressed="false">04 · Practicar en contexto</button><button data-view="relations" aria-pressed="false">05 · Contrarios y preguntas</button></nav>
+    <nav aria-label="Secciones" class="tabs"><button data-view="practice" class="active" aria-pressed="true">01 · Practicar verbos</button><button data-view="catalog" aria-pressed="false">02 · Conjugaciones</button><button data-view="vocabulary" aria-pressed="false">03 · Vocabulario por temas</button><button data-view="context" aria-pressed="false">04 · Practicar en contexto</button><button data-view="relations" aria-pressed="false">05 · Contrarios y preguntas</button><button data-view="grammar" aria-pressed="false">06 · Gramática</button></nav>
     <section id="practice">
       <div class="section-head"><div><p class="eyebrow">TU SESIÓN</p><h2>¿Cómo practicamos hoy?</h2></div><p id="stats" aria-live="polite"></p></div>
       <div class="controls"><label>Verbos de la sesión<select id="pool"><option value="core">100 esenciales</option><option value="all">Los 350 verbos</option><option value="A1">A1 · Base</option><option value="A2">A2 · Vida cotidiana</option><option value="B1">B1 · Autonomía</option><option value="B2">B2 · Ampliación</option><option value="favorites">Mis favoritos</option></select></label><label>Modo<select id="mode"><option value="cards">Flashcards</option><option value="quiz">Test de opciones</option><option value="write">Escribir en francés</option></select></label><label class="check"><input id="strict" type="checkbox" checked> Exigir acentos al escribir</label></div>
@@ -138,6 +140,28 @@
       </div>
       <div id="r-summary" class="empty" hidden><h3>Sesión completada</h3><p id="r-result"></p><button id="r-again" class="primary">Volver a elegir</button></div>
       <p id="r-stats" class="hint" aria-live="polite"></p><p id="r-storage" class="hint">El progreso de estos ejercicios se guarda por separado. Las nuevas parejas son material adicional: no modifican el recuento del catálogo de 2.500 entradas.</p>
+    </section>
+
+    <section id="grammar" hidden>
+      <div class="section-head"><div><p class="eyebrow">ENTIENDE CÓMO SE CONSTRUYE EL FRANCÉS</p><h2>Estructuras gramaticales.</h2></div><span class="tag">48 fichas · 96 ejercicios</span></div>
+      <p class="v-intro">Fórmulas claras, ejemplos traducidos y errores habituales. Empieza por las contracciones y amplía con artículos, pronombres, tiempos y conectores. Los niveles son orientativos.</p>
+      <div class="g-key"><strong>de + le → du · de + les → des · à + le → au · à + les → aux</strong><p><b>De la no se contrae.</b> Además, <i>du</i> puede ser partitivo y <i>des</i>, indefinido plural: su función depende de la frase.</p></div>
+      <div id="g-library">
+        <div class="v-filters"><label>Tema<select id="g-group"><option value="all">Todos los temas</option></select></label><label>Nivel<select id="g-level"><option value="all">Todos los niveles</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option></select></label><label class="search-label">Buscar estructura<input id="g-search" type="search" placeholder="du, negación, pronombres…"></label><button id="g-clear" class="small">Limpiar filtros</button></div>
+        <div class="r-session-settings"><label>Formato<select id="g-mode"><option value="quiz">Elegir una opción</option><option value="write">Completar escribiendo</option></select></label><label>Duración<select id="g-length"><option value="10">10 ejercicios</option><option value="20">20 ejercicios</option><option value="free">Práctica libre</option></select></label><label class="check"><input id="g-help" type="checkbox" checked> Mostrar regla durante el ejercicio</label><label class="check"><input id="g-strict" type="checkbox" checked> Exigir acentos</label></div>
+        <div class="v-results-head"><p id="g-count" role="status"></p><button id="g-start" class="primary">Practicar esta selección →</button></div>
+        <div id="g-cards" class="g-grid"></div>
+        <div class="pagination"><button id="g-prev-page" class="small">← Anterior</button><span id="g-page" aria-live="polite"></span><button id="g-next-page" class="small">Siguiente →</button></div>
+      </div>
+      <div id="g-game" class="game" hidden>
+        <div class="game-top"><button id="g-stop" class="small">← Terminar sesión</button><span id="g-position" class="eyebrow"></span></div>
+        <p id="g-instruction" class="prompt"></p><h3 id="g-question" lang="fr"></h3><p id="g-spanish" class="hint"></p><p id="g-hint" class="g-hint" hidden></p>
+        <div id="g-options" class="options"></div><form id="g-write" hidden><label for="g-input">Escribe solo lo que falta</label><div class="write-line"><input id="g-input" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="g-feedback"><button id="g-check" class="primary" type="submit">Comprobar</button></div><div id="g-accents" class="accents" aria-label="Insertar letra con acento"></div></form>
+        <p id="g-feedback" role="status" aria-live="polite" class="v-feedback"></p><p id="g-answer" class="answer" lang="fr" hidden></p><div id="g-explanation" class="g-explanation" hidden></div>
+        <div class="game-bottom"><button id="g-reveal" class="small">Ver solución y repasar</button><button id="g-audio" class="small" hidden>♫ Escuchar</button><button id="g-next" class="secondary" hidden>Siguiente →</button></div>
+      </div>
+      <div id="g-summary" class="empty" hidden><h3>Sesión terminada</h3><p id="g-result"></p><button id="g-return" class="primary">Volver a las estructuras</button></div>
+      <p id="g-stats" class="hint" aria-live="polite"></p><p id="g-storage" class="hint">Tu progreso gramatical se guarda en este navegador, separado del vocabulario y de los demás juegos.</p>
     </section>
 
     <footer><span>atelier · Un pequeño hábito, un gran idioma.</span><span id="storage-note">Favoritos y progreso guardados en este navegador.</span></footer>
