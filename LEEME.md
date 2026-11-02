@@ -4,6 +4,12 @@ Versión con ejercicios en contexto: **350 verbos y 2.500 entradas de vocabulari
 
 La pestaña **04 · Practicar en contexto** añade completar, elegir y ordenar frases con filtros de contenido, ayudas, recomendación y comprobación del aprendizaje. Consulta `CONTEXTO.md` para el alcance de las 48 estructuras iniciales.
 
+## Menú de idiomas
+
+Al abrir la página aparece el selector de idiomas con banderas circulares. Francés está disponible; inglés, español, alemán, italiano y japonés aparecen bloqueados con «Próximamente». Pulsa «Cambiar idioma» o el logotipo para regresar al selector sin reiniciar la sesión. Cada nueva apertura muestra el selector. Las banderas son SVG locales y funcionan sin conexión.
+
+El nuevo archivo `idiomas.js` controla esta entrada. Copia también `index.html` y `styles.css` actualizados, o reemplaza todos los archivos con el ZIP.
+
 ## Abrir en Visual Studio Code
 
 1. Descomprime `frances-verbos.zip`.
