@@ -8,6 +8,8 @@ La pestaña **05 · Contrarios y preguntas** incorpora 100 parejas de contrarios
 
 La pestaña **06 · Gramática** añade 48 fichas explicadas y 96 ejercicios, con búsqueda, filtros y práctica de una regla concreta. Consulta `GRAMATICA.md`.
 
+La nueva sección inicial **00 · Empieza aquí** reúne el abecedario con audio y ejemplos, y los números con reglas, explorador y cuatro modalidades de ejercicios. Es la primera pestaña al entrar en francés en una nueva apertura. Consulta `EMPIEZA-AQUI.md`.
+
 ## Menú de idiomas
 
 Al abrir la página aparece el selector de idiomas con banderas circulares. Francés está disponible; inglés, español, alemán, italiano y japonés aparecen bloqueados con «Próximamente». Pulsa «Cambiar idioma» o el logotipo para regresar al selector sin reiniciar la sesión. Cada nueva apertura muestra el selector. Las banderas son SVG locales y funcionan sin conexión.
@@ -51,6 +53,9 @@ frances-verbos/
 ├── gramatica-datos.js   # Reglas, ejemplos y ejercicios
 ├── gramatica-app.js     # Guía y práctica de gramática
 ├── GRAMATICA.md         # Instrucciones de gramática
+├── inicio-datos.js      # Abecedario y formación de números
+├── inicio-app.js        # Audio y ejercicios de primeros pasos
+├── EMPIEZA-AQUI.md      # Instrucciones de abecedario y números
 ├── LEEME.md            # Estas instrucciones
 ├── FUENTES.md          # Procedencia de datos, alcance y licencias
 └── LICENCIA-LEFFF.txt   # Licencia de los datos de conjugación

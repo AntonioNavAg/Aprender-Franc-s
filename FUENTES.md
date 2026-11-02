@@ -30,3 +30,7 @@ Las parejas, explicaciones y 50 preguntas de `retos-datos.js` se han redactado p
 ## Guía de gramática
 
 Las 48 fichas, sus ejemplos y 96 ejercicios de `gramatica-datos.js` se han redactado para el proyecto. Ese contenido y `gramatica-app.js` se distribuyen bajo la misma licencia MIT indicada arriba. Los niveles son orientativos; la guía no pretende cubrir todas las excepciones ni ser una gramática exhaustiva.
+
+## Abecedario y números
+
+`inicio-datos.js` contiene una introducción editorial al alfabeto y un generador de cardinales del francés de Francia (0–999 999). Las variantes regionales se mencionan, pero no forman parte de las respuestas previstas. Este contenido y `inicio-app.js` son originales del proyecto y se distribuyen bajo la licencia MIT indicada arriba. El audio lo proporciona la síntesis de voz del navegador/sistema; no se incluyen grabaciones de terceros ni una API externa.
