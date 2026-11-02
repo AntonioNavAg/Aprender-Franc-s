@@ -4,6 +4,8 @@ Versión con ejercicios en contexto: **350 verbos y 2.500 entradas de vocabulari
 
 La pestaña **04 · Practicar en contexto** añade completar, elegir y ordenar frases con filtros de contenido, ayudas, recomendación y comprobación del aprendizaje. Consulta `CONTEXTO.md` para el alcance de las 48 estructuras iniciales.
 
+La pestaña **05 · Contrarios y preguntas** incorpora 100 parejas de contrarios y contrastes, una guía de 16 grupos interrogativos y 50 preguntas para completar. Consulta `CONTRARIOS-Y-PREGUNTAS.md`.
+
 ## Menú de idiomas
 
 Al abrir la página aparece el selector de idiomas con banderas circulares. Francés está disponible; inglés, español, alemán, italiano y japonés aparecen bloqueados con «Próximamente». Pulsa «Cambiar idioma» o el logotipo para regresar al selector sin reiniciar la sesión. Cada nueva apertura muestra el selector. Las banderas son SVG locales y funcionan sin conexión.
@@ -40,6 +42,10 @@ frances-verbos/
 ├── contexto-app.js      # Interfaz de práctica en contexto
 ├── apprentissage.js     # Evidencia de aprendizaje
 ├── CONTEXTO.md          # Guía de los nuevos ejercicios
+├── idiomas.js          # Menú inicial de selección de idioma
+├── retos-datos.js       # Contrarios, interrogativos y preguntas
+├── retos-app.js         # Juegos de contrarios e interrogativos
+├── CONTRARIOS-Y-PREGUNTAS.md # Guía de la nueva sección
 ├── LEEME.md            # Estas instrucciones
 ├── FUENTES.md          # Procedencia de datos, alcance y licencias
 └── LICENCIA-LEFFF.txt   # Licencia de los datos de conjugación

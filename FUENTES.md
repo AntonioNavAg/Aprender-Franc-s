@@ -22,3 +22,7 @@ La selección de 2.500 entradas en `vocabulario.js`, sus traducciones españolas
 ## Ejercicios en contexto
 
 Las 48 estructuras y sus complementos de `contexto-datos.js` se han redactado para el proyecto. Las formas verbales se obtienen del mismo recurso Lefff, sin una API externa. `contexto-motor.js`, `contexto-app.js` y `apprentissage.js` son código original bajo la licencia MIT indicada arriba. El generador cubre una selección explícita del diccionario y no promete validar respuestas abiertas ni todas las combinaciones del francés.
+
+## Contrarios e interrogativos
+
+Las parejas, explicaciones y 50 preguntas de `retos-datos.js` se han redactado para este proyecto. El contenido original y `retos-app.js` se distribuyen bajo la misma licencia MIT indicada arriba. Las parejas enseñan contrastes en el contexto señalado; no constituyen una lista exhaustiva de todos los antónimos posibles.

@@ -15,6 +15,8 @@
   <script defer src="app.js"></script>
   <script defer src="vocabulario-app.js"></script>
   <script defer src="contexto-app.js"></script>
+  <script defer src="retos-datos.js"></script>
+  <script defer src="retos-app.js"></script>
   <script defer src="idiomas.js"></script>
 </head>
 <body>
@@ -27,7 +29,7 @@
 <button type="button" class="language-card locked" disabled aria-disabled="true" aria-label="Japonés: bloqueado, próximamente"><span class="language-flag"><svg viewBox="0 0 90 60" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="90" height="60" fill="#fff"/><circle cx="45" cy="30" r="16" fill="#c5334a"/></svg></span><strong>Japonés</strong><span class="language-native" lang="ja">日本語</span><span class="language-status"><svg class="language-lock" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Próximamente</span></button></div><p class="language-footnote">Francés ya disponible · Más idiomas próximamente</p><noscript><p>Activa JavaScript en tu navegador para entrar en los ejercicios.</p></noscript></main>
   <main id="french-app" hidden>
     <section class="intro"><div><p class="eyebrow">UN POCO CADA DÍA</p><h1>De entenderlo<br>a <em>decirlo.</em></h1><p>350 verbos. 2.500 palabras. Un mundo de conversaciones.<br>Construye tu base y avanza, tema a tema.</p></div><div class="intro-note"><span class="big">Bonjour !</span><p>Una palabra nueva.<br>Una conversación más cerca.</p><span class="tag">Sin cuenta · Sin conexión</span></div></section>
-    <nav aria-label="Secciones" class="tabs"><button data-view="practice" class="active" aria-pressed="true">01 · Practicar verbos</button><button data-view="catalog" aria-pressed="false">02 · Conjugaciones</button><button data-view="vocabulary" aria-pressed="false">03 · Vocabulario por temas</button><button data-view="context" aria-pressed="false">04 · Practicar en contexto</button></nav>
+    <nav aria-label="Secciones" class="tabs"><button data-view="practice" class="active" aria-pressed="true">01 · Practicar verbos</button><button data-view="catalog" aria-pressed="false">02 · Conjugaciones</button><button data-view="vocabulary" aria-pressed="false">03 · Vocabulario por temas</button><button data-view="context" aria-pressed="false">04 · Practicar en contexto</button><button data-view="relations" aria-pressed="false">05 · Contrarios y preguntas</button></nav>
     <section id="practice">
       <div class="section-head"><div><p class="eyebrow">TU SESIÓN</p><h2>¿Cómo practicamos hoy?</h2></div><p id="stats" aria-live="polite"></p></div>
       <div class="controls"><label>Verbos de la sesión<select id="pool"><option value="core">100 esenciales</option><option value="all">Los 350 verbos</option><option value="A1">A1 · Base</option><option value="A2">A2 · Vida cotidiana</option><option value="B1">B1 · Autonomía</option><option value="B2">B2 · Ampliación</option><option value="favorites">Mis favoritos</option></select></label><label>Modo<select id="mode"><option value="cards">Flashcards</option><option value="quiz">Test de opciones</option><option value="write">Escribir en francés</option></select></label><label class="check"><input id="strict" type="checkbox" checked> Exigir acentos al escribir</label></div>
@@ -114,6 +116,28 @@
       <div id="c-summary" class="empty" hidden><h3>Sesión terminada</h3><p id="c-result"></p><button id="c-return" class="primary">Elegir otra sesión</button></div>
       <details class="c-progress"><summary>Qué has comprobado</summary><p class="hint">Reconocida: acierto en un test. Recordada: escrita sin opciones. Utilizada: resuelta dentro de una frase. Consolidada: escrita correctamente en contexto, sin pista francesa, en tres días distintos desde el último fallo en contexto. Los artículos, las opciones y ordenar son práctica guiada: no consolidan por sí solos. Las flashcards y marcas manuales siguen siendo autoevaluaciones; no se convierten automáticamente en dominio.</p><div id="c-progress" class="c-progress-list"></div></details>
       <p id="c-storage" class="hint">Progreso guardado en este navegador. Los niveles y estados son orientativos.</p>
+    </section>
+
+    <section id="relations" hidden>
+      <div class="section-head"><div><p class="eyebrow">CONECTA LAS PALABRAS</p><h2>Contrarios y preguntas.</h2></div><span class="tag">Más formas de practicar</span></div>
+      <div class="r-tabs" aria-label="Tipo de contenido"><button id="r-opposites-tab" class="secondary" aria-pressed="true">Contrarios</button><button id="r-questions-tab" class="small" aria-pressed="false">Palabras interrogativas</button></div>
+      <div id="r-library">
+        <div id="r-opposite-library"><p class="v-intro">100 parejas de contrarios y contrastes habituales: colores, tamaños, estados, movimientos… El contexto importa: una palabra puede tener varios contrarios posibles. Aquí practicamos las parejas indicadas.</p><div class="controls"><label>Tipo<select id="r-type"><option value="all">Todos</option><option>Adjetivos</option><option>Adverbios</option><option>Verbos</option></select></label><label>Buscar una pareja<input id="r-search" type="search" placeholder="Blanco, étroit, frío…"></label></div><div id="r-pairs" class="r-pairs"></div></div>
+        <div id="r-question-library" hidden><p class="v-intro">Cuándo, cómo, qué, quién, dónde, por qué y otras preguntas. Compara «que», «qu’est-ce que» y «quoi», y aprende cuándo cambia «quel».</p><label>Qué palabra practicar<select id="r-question-filter"><option value="all">Todas las palabras interrogativas</option></select></label><div id="r-definitions" class="word-grid"></div><p class="hint">Esta sección trabaja preguntas. Los usos de «que», «qui», «quand» o «comme» como relativos o conectores son otros usos y no se evalúan aquí.</p></div>
+        <div class="r-session-settings"><label>Ejercicio<select id="r-mode"><option value="quiz">Elegir una opción</option><option value="write">Escribir la respuesta</option><option value="cards">Flashcards de contrarios</option></select></label><label id="r-direction-label">Dirección<select id="r-direction"><option value="mixed">En ambos sentidos</option><option value="forward">Primera → segunda palabra</option><option value="reverse">Segunda → primera palabra</option></select></label><label>Duración<select id="r-length"><option value="10">10 ejercicios</option><option value="20">20 ejercicios</option><option value="free">Práctica libre</option></select></label><label class="check"><input id="r-strict" type="checkbox" checked> Exigir acentos</label></div>
+        <div class="v-results-head"><p id="r-count" role="status"></p><button id="r-start" class="primary">Empezar →</button></div>
+      </div>
+      <div id="r-game" class="game" hidden>
+        <div class="game-top"><button id="r-back" class="small">← Terminar sesión</button><span id="r-position" class="eyebrow"></span></div>
+        <p id="r-prompt" class="prompt"></p><h3 id="r-question" lang="fr"></h3><p id="r-meaning" class="hint"></p><p id="r-reply" class="r-reply" lang="fr" hidden></p>
+        <div id="r-options" class="options"></div>
+        <form id="r-write" hidden><label for="r-input">Tu respuesta en francés</label><div class="write-line"><input id="r-input" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="r-feedback"><button id="r-check" class="primary" type="submit">Comprobar</button></div><div id="r-accents" class="accents" aria-label="Insertar letra con acento"></div></form>
+        <div id="r-card" hidden><button id="r-flip" class="primary">Ver contrario</button><div id="r-revealed" hidden><p id="r-card-answer" class="answer" lang="fr"></p><div class="actions"><button id="r-knew" class="primary">Lo sabía</button><button id="r-forgot" class="small">Repasar</button></div></div></div>
+        <p id="r-feedback" role="status" class="v-feedback" aria-live="polite"></p><p id="r-full-answer" class="answer" lang="fr" hidden></p><p id="r-explanation" class="hint" hidden></p>
+        <div class="game-bottom"><button id="r-solution" class="small">Ver solución y repasar</button><button id="r-audio" class="small" hidden>♫ Escuchar</button><button id="r-next" class="secondary" hidden>Siguiente →</button></div>
+      </div>
+      <div id="r-summary" class="empty" hidden><h3>Sesión completada</h3><p id="r-result"></p><button id="r-again" class="primary">Volver a elegir</button></div>
+      <p id="r-stats" class="hint" aria-live="polite"></p><p id="r-storage" class="hint">El progreso de estos ejercicios se guarda por separado. Las nuevas parejas son material adicional: no modifican el recuento del catálogo de 2.500 entradas.</p>
     </section>
 
     <footer><span>atelier · Un pequeño hábito, un gran idioma.</span><span id="storage-note">Favoritos y progreso guardados en este navegador.</span></footer>
